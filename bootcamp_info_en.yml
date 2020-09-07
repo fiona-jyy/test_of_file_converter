@@ -1,0 +1,2936 @@
+---
+en:
+  accessibility:
+    next_instructor: Next teacher
+    next_slide: Next slide
+    next_testimonial: Next testimonial
+    prev_instructor: Previous teacher
+    prev_slide: Previous slide
+    prev_testimonial: Previous testimonial
+    video: Launch video
+  apply:
+    apply_form:
+      additional_input: Tell us more
+      additional_input_placeholder: Who?
+      age: Age
+      batch_status_full: "(Full)"
+      batch_status_last_seats: "(Last seats)"
+      batch_status_waiting_list: "(Waiting List)"
+      codecademy_html: CodeCademy <i class="help" data-action="click->modal#openModalForm">(help)</i>
+      codecademy_username_html: CodeCademy (<small><a href=''#'' data-toggle="modal"
+        data-target="#codecademy">help</a></small>)
+      custom_form_title: Apply to our %{program}
+      data_full_time_prefix: Data Science Full-time (9 weeks)
+      data_part_time_prefix: Data Science Part-time (24 weeks)
+      date: Choose a course
+      dates_label: Choose a course
+      email: Email
+      first_name: First name
+      form_catchline: Complete this application form and we will contact you for an
+        interview.
+      form_catchline_html: 'Learn to build a tech product in <abbr data-target="applies.weekCounter">9</abbr>
+        weeks at Le Wagon.
+
+'
+      form_title: Apply to %{city} courses
+      form_title_mobile_html: Apply to <i class="highlighted highlighted-red">%{city}</i>
+        courses
+      global_form_title: Apply to Le Wagon courses
+      global_form_title_mobile_html: Apply to <i class="highlighted highlighted-red">Le
+        Wagon</i>
+      global_submit: Apply to Le Wagon
+      global_submit_selected: Apply to
+      last_name: Last name
+      linkedin_html: 'Your Linkedin profile <a class="help" href="https://www.linkedin.com/help/linkedin/answer/49315/finding-your-linkedin-public-profile-url?lang=en"
+        target="_blank">(help)</a>
+
+'
+      linkedin_placeholder: https://www.linkedin.com/in/alan
+      loading_batches: Loading batches...
+      motivation: Motivation
+      motivation_counter: 140 characters minimum
+      motivation_counter_html: 'Still <strong><i data-target="character-counter.charactersCounter
+        applies-validation.charactersCounter" data-minimum-length="%{min_length}"></i></strong>
+        caracters remaining
+
+'
+      motivation_placeholder: Why Le Wagon? What is your personal project?
+      part_time_prefix: "[Part-Time]"
+      phone: Phone
+      privacy_policy_consent_html: By submitting this form, I accept that my data
+        may be used for a quote request and the commercial relationship that may result
+        from it. Check out our complete <a href="https://www.iubenda.com/privacy-policy/7967062/legal"
+        rel="nofollow noopener" target="_blank">Privacy Policy</a>.
+      prompt_no_batch: No batch available at the moment
+      referer: How did you hear about us?
+      referer_options:
+        referer_option_1: Online Search
+        referer_option_2: Online reviews (Switchup, Coursereport...)
+        referer_option_3: Friend or Family (free field)
+        referer_option_4: Social Media
+        referer_option_5: Le Wagon event
+        referer_option_6: YouTube
+        referer_option_7: Media/Press
+        referer_option_8: Quora/Reddit
+        referer_option_9: Other (free field)
+      referer_option_prompt: Choose an option
+      submit: Submit application
+      web_full_time_prefix: Web Development Full-time (9 weeks)
+      web_part_time_prefix: Web Development Part-time (24 weeks)
+      wechat_id: Your WeChat ID
+    apply_infos:
+      age_threshold: Applicant must be at least 17 years old.
+      application_disclaimer_html: 'Once you''ve submitted the application form <strong>you
+        will receive an email to schedule an interview.</strong>
+
+'
+      batch_status_html: "<strong>Batch status:</strong>\n"
+      career_week_dates_html: "<strong>Career Week:</strong>\n"
+      city_global_html: "<strong>City:</strong>\n"
+      city_html: "<strong>City:</strong> %{city}\n"
+      course_in_html: "<strong>Course in:</strong>\n"
+      data_background: Basic mathematic & programming background required %{icon_info}
+      data_background_html: Basic mathematic & programming background required %{icon_info}
+      data_background_tooltip: |
+        <ul>
+          <li>Mathematics: minimum High School Maths level (functions, derivatives & system of linear equations)</li>
+          <li>Programming: data types & variables, conditions, loops, functions and the two data structures list & dict (named Array and Hash in Ruby)</li>
+        </ul>
+      data_background_tooltip_html: |
+        <ul>
+          <li>Mathematics: minimum High School Maths level (functions, derivatives & system of linear equations)</li>
+          <li>Programming: data types & variables, conditions, loops, functions and the two data structures list & dict (named Array and Hash in Ruby)</li>
+        </ul>
+      date_html: "<strong>Date:</strong>\n"
+      format_full_time: Full-time - 9 weeks
+      format_html: "<strong>Format:</strong>\n"
+      format_part_time: Part-time - 24 weeks
+      funding_options: Funding options are available.
+      language_html: 'Course in <strong>%{language}</strong>
+
+'
+      no_tech_background: No technical background is required.
+      price_html: "<strong>Price:</strong>\n"
+      program_html: "<strong>Program:</strong>\n"
+    error_message:
+      age_presence_message: Please enter your age
+      batch_id_presence_message: Please select a course
+      city_presence_message: Please select a city
+      email_presence_message: 'Please enter your email address in format: yourname@exemple.com'
+      first_name_presence_message: Please enter your first name
+      last_name_presence_message: Please enter your last name
+      motivation_presence_message: Please tell us a bit more about you!
+      phone_presence_message: Please enter your phone number
+      policy_presence_message: Please check this box before you apply
+      source_presence_message: Please chose one option in the the list above.
+    modal_codecademy:
+      title: CodeCademy
+    oops: Oops, we don't have any batch scheduled in %{city} right now.
+    oops_cta: Try another city!
+    page_description: Learn to build a tech product at Le Wagon.
+    page_title: Apply to %{city} courses
+    pop_the_question: Did you want to apply?
+    thanks:
+      already_applied_html: |
+        You already applied to <strong>%{city}</strong>.
+        Please wait for the Driver to contact you to set up your interview.
+        If you wish to change the city you applied to, you can discuss that with him / her!
+      first_step_html: 'Join our <strong>%{city} Meetup group</strong>
+
+'
+      fourth_step_data_html: Resume working on the <strong>PrepWork</strong>
+      fourth_step_html: 'Resume working on the <strong>CodeCademy Ruby track</strong>
+
+'
+      second_step_html: 'Follow us on <strong>Instagram</strong>
+
+'
+      take_advance: 'Checklist:'
+      thanks: Thank you
+      third_step_html: 'Follow us on <strong>Twitter</strong>
+
+'
+      we_will_contact_data_html: Thank you! We will contact you shortly by e-mail
+        to plan an interview. In the meantime, please follow the instructions of our
+        check-list and start the <a href="http://lew.ag/data-prepwork" target="_blank"
+        rel="nofollow noopener"><strong>PrepWork</strong></a>.
+      we_will_contact_html: 'Thank you! We will contact you shortly by e-mail to plan
+        an interview. In the meantime, please follow the instructions of our check-list
+        and start the <a href="https://www.codecademy.com/learn/learn-ruby" target="_blank"
+        rel="nofollow noopener"><strong>Ruby track</strong></a> on CodeCademy.
+
+'
+  article:
+    cta: Read article
+  batch:
+    hybrid: remote available
+    onsite: on campus
+    remote: full remote
+  batch_format:
+    full_time: Full-time
+    part_time: Part-time
+  batch_program:
+    data: Data Science
+    data_science: Data Science
+    web: Web Development
+    web_development: Web Development
+  batch_status:
+    full: Full
+    last_seat_remaining: Last seats
+    open_for_registration: Open
+  blog:
+    all: All
+    aside:
+      company_html: in <strong>%{company}</strong>
+      featuring: Featuring graduate
+      linkedin_link: More about %{first_name}
+      sharing: Share article
+    categories:
+      graduate_stories: Graduate stories
+      learn_to_code: Learn to code
+      news: Le Wagon news
+    hint: Categories
+    keep_reading:
+      cta: Read article
+      title: Keep reading
+    page_description: Bringing you the latest news, tutorials and insights on coding
+      and entrepreneurship.
+    page_title: Blog - Code matters
+    published_on: Published on %{publication_date}
+    reading_time: "%{read_time} min read in %{category}"
+    show_more_posts: See more posts
+  campuses:
+    card:
+      courses_available: Courses available
+      data_full_time: Data science Full-time
+      data_part_time: Data science Part-time
+      data_science: Data Science
+      data_science_courses: Data Science courses
+      explore_course: Explore course
+      full_time: Full-time
+      language: Course in %{language}
+      next_full_time_batch_date: Full-time (%{batch_starts})
+      next_open_batch_html: Next batch<strong>%{batch_starts}</strong>
+      next_part_time_batch_date: Part-time (%{batch_starts})
+      no_batch: No bootcamp scheduled right now
+      part_time: Part-time
+      upcoming: Upcoming bootcamps
+      web_develoment: Web Development
+      web_development_courses: Web Development course
+      web_full_time: Web Development Full-time
+      web_part_time: Web Development Part-time
+    catchline: Find the campus that is made for you.
+    filters:
+      all_continents: All continents
+      all_courses: All courses
+      all_languages: All languages
+      all_programs: Full-time or part-time
+      alphabetically: Alphabetically
+      by_start_date: By start date
+      data: Data Science
+      language_label: Course language
+      oops: Oops, we don't have any campuses matching your current request.
+      oops_cta: Try something else!
+      order_results: Order
+      program_full_time: Full-time (9 weeks)
+      program_label: Course
+      program_part_time: Part-time (24 weeks)
+      region_label: Show me campuses in
+      timeline_label: Format
+      web: Web Development
+    main_title: Find the perfect city for you
+    main_title_html: Find your campus among <i class="highlighted highlighted-red">%{cities_count}
+      cities</i>
+    map:
+      cta: Discover our campus
+    nav:
+      list: List
+      map: Map
+    page_description: 'Le Wagon is a global community with campuses all around the
+      world. Each city has its own ecosystem and network of graduates: explore them
+      and choose the one that is made for you!'
+    page_title: Find your campus among %{cities_count} cities
+    your_city:
+      catchline: If you are looking to bring Le Wagon into your local tech ecosystem
+        and bring forward new ideas to build the future of education, reach out!
+      cta: Submit your city
+      title: Could your city be the next one?
+  career_services:
+    career_intro:
+      datatron:
+        item_1_description: We're a community of %{alumni_count}+ talents working
+          for the best tech companies wordwide (Google, Uber, Blablacar…).
+        item_1_title: Join a strong network
+        item_2_description: At the end of the course, our students have built several
+          real-life products. For tech employers, this adds a lot of value.
+        item_2_title: Build your tech portfolio
+        item_3_description: We organize job fairs and coach our students for job interviews
+          and tech challenges.
+        item_3_title: Prepare job interviews
+      description: Through job fairs, networking events and coaching sessions, we've
+        helped our %{alumni_count}+ alumni find their dream job.
+      title_global: Find your next job anywhere
+      title_global_html: 'Find your <i class="highlighted highlighted-red">next job</i>
+        anywhere
+
+'
+      title_local: Find your next job in %{city}
+      title_local_html: 'Find your <i class="highlighted highlighted-red">next job</i>
+        in %{city}
+
+'
+      video_thumbnail_alt: Hiring developers from Le Wagon coding bootcamp
+      video_title_html: How to get a job in tech<br>Hiring developers from Le Wagon
+        coding bootcamp
+    header:
+      catchline: Land a job in the best tech companies.
+      content: We help our alumni kick-start their tech career as fullstack developer
+        or product manager.
+    hiring_network:
+      cta_hiring_partner: Become a hiring partner
+      description: More than %{companies_count}+ hiring partners and lots of cool
+        recruiting events.
+      title: 'Our hiring network
+
+'
+      title_html: 'Our hiring <i class="highlighted highlighted-green">network</i>
+
+'
+    leading_companies:
+      graduate: graduate
+      hired_html: 'Hired <strong>%{alumni_count}</strong>
+
+'
+      title: Best tech companies hire our alumni
+      title_html: '<i class="highlighted highlighted-purple">Best</i> tech companies
+        hire our alumni
+
+'
+    page_description: We help our alumni kick-start their tech career as fullstack
+      developer or product manager.
+    page_title: Land a job in the best tech companies
+    recruiter_testimonials:
+      title: 'What recruiters love about our alumni
+
+'
+      title_html: 'What recruiters <i class="highlighted highlighted-red">love</i>
+        about our alumni
+
+'
+  city:
+    catchline: Learn to code at our %{city} campus and join a community of tech creators,
+      career changers and entrepreneurs who changed their lives with us.
+    catch_line_multiple_programs: Learn to build a tech product, land a job with Le
+      Wagon
+    contact:
+      content_html: 'You have questions? <strong>We have answers!</strong>
+
+'
+      title: Hi, I'm %{contact}
+    cover_picture_alt: Welcome to Le Wagon %{city}
+    infos: Next batch - %{batch_start} (%{batch_price})
+    infos_mobile_html: "<strong>Next batch</strong><br>%{batch_start} (%{batch_price})"
+    infos_mobile_multiple_programs_html: "<strong>Next batches</strong><br>%{batch_start_full_time}
+      (Full-Time - %{batch_price_full_time}) and %{batch_start_part_time} (Part-Time
+      - %{batch_price_part_time})\n"
+    infos_multiple_programs: 'Next batches: %{batch_start_full_time} (Full-Time -
+      %{batch_price_full_time}) and %{batch_start_part_time} (Part-Time - %{batch_price_part_time})
+
+'
+    infos_open_batches: Check all upcoming dates
+    introduction:
+      cta: Apply to our next bootcamp in %{city}
+      title: Experience our coding bootcamp in %{city}
+      title_media: Get inspired by Le Wagon %{city}
+    main_title: Coding Bootcamp in %{city} - Le Wagon
+    main_title_html: Join our Coding<br>Bootcamp in %{city}
+    modal_contact:
+      alt_contact_picture: Meet %{contact}, our Admissions Manager in %{city}
+      alt_cover_picture: Le Wagon %{city}
+      alt_manager_picture: "%{name}, admission manager at Le Wagon %{city}"
+      contact_details_html: "%{job_title}<br>at Le Wagon %{city}\n"
+      cta: Contact %{contact}
+      cta_email_html: 'Send me a message<i>%{mail}</i>
+
+'
+      cta_meeting: Book a call
+      cta_phone_html: 'Call me<i>%{phone_number}</i>
+
+'
+      introduction: Hi! I will be your host during the bootcamp. Feel free to call
+        me or send me an email with any question you could have about our campus in
+        %{city}.
+      qr_code: Scan to contact us on Whatsapp
+      qr_link_html: 'Chat with us on Whatsapp<i>%{whatsapp_number}</i>
+
+'
+    page_description: Learn to code in 9 weeks and become a full-stack Web Developer
+      with Europe's major coding school in %{city}.
+    page_title: Coding Bootcamp in %{city} - Le Wagon
+    programs:
+      content: Choose the right course in %{city} to reach your goals, with a format
+        adapted to your availabilities.
+      multiple_programs:
+        content: During our full-time or part-time coding bootcamp, you build several
+          web applications and your own personal project. You create a solid Github
+          portfolio and learn to work within a tech team.
+        discover: 'Discover our bootcamps:'
+        full_time: Full-Time
+        or: or
+        part_time: Part-Time
+      title: Next coding bootcamps in %{city}
+      title_html: Our coding <i class="highlighted highlighted-red">bootcamps</i>
+        in %{city}
+    program_card:
+      alt_picture: Student taking web development course at Le Wagon
+      apply: Apply now
+      data_bootcamp: Data Science courses
+      data_description: From Python to advanced Machine Learning models, get all the
+        skills to join a Data Science team.
+      data_full_time: Go to full-time data science course
+      data_learn_more: Learn more about our Data Science Course
+      data_part_time: Go to part-time data science course
+      explore_course: Explore course
+      first_batch_coming_soon: First batch will be announced soon
+      full_time: Full-time bootcamp
+      full_time_description_html: 'Learn to code and <strong>kickstart your tech career</strong>
+        by joining Le Wagon for 9 intensive weeks.
+
+'
+      full_time_html: 'Full-time (9 weeks)
+
+'
+      full_time_placeholder: From Monday to Friday, all day.
+      next_batch_coming_soon: Next batch coming soon
+      next_batch_date: "%{batch_start_time} - %{batch_end_time} (%{batch_price})"
+      next_full_time_batch_html: Our next full-time batch starts on <strong>%{next_batch}</strong>
+      next_part_time_batch_html: Our next part-time batch starts on <strong>%{next_batch}</strong>
+      part_time: Part-time bootcamp
+      part_time_description_html: 'Follow <strong>strictly the same but tailor-made
+        program</strong> adapted to your busy schedule.
+
+'
+      part_time_html: 'Part-time (24 weeks)
+
+'
+      part_time_placeholder: Flexible hours, same outcome.
+      span_full_time: 9 weeks
+      span_part_time: 24 weeks
+      upcoming: Upcoming sessions
+      upcoming_batch: Next session
+      upcoming_batches: Upcoming sessions
+      web_bootcamp: Web Development courses
+      web_description: From the database to the user interface, learn to code your
+        own web applications from scratch and become a full-stack Web Developer.
+      web_description_full_time_only: In 9 full-time weeks, learn the skills of a
+        full-stack Web Developer and code your own web applications from scratch.
+      web_description_part_time_only: In 24 weeks, part-time, learn the skills of
+        a full-stack Web Developer and code your own web applications from scratch.
+      web_dev_full_time: Go to full-time web development course
+      web_dev_part_time: Go to part-time web development course
+      web_full_time_bootcamp: Web Development Full-Time
+      web_full_time_description: A 9-week full-time course to learn software development
+        and code your own web applications from A to Z.
+      web_full_time_learn_more: Learn more about our full-time bootcamp
+      web_learn_more: Learn more about our Web Development Course
+      web_part_time_bootcamp: Web Development Part-Time
+      web_part_time_description: A 24-week part-time course - two evenings per week
+        and some Saturdays - following the exact same curriculum as our full-time
+        course.
+      web_part_time_learn_more: Learn more about our part-time bootcamp
+    section_batches:
+      next_batch: "%{batch_start_time} - %{batch_end_time} (%{batch_category} - %{batch_price})"
+    section_campus:
+      content: "We frequently organize workshops and talks, that are open to all.
+        We would love to meet you there!\n\n"
+      cta: Discover our events in %{city}
+      events: Next events in %{city}
+      media: Get inspired by Le Wagon %{city}
+      open_map: Open in map
+      title: Visit our campus in %{city}
+      title_html: Visit our <i class="highlighted highlighted-green">campus</i>
+    section_events:
+      content: In addition to our coding bootcamps, we host free evening workshops
+        and entrepreneurial talks during the week that are open to all. Come down
+        and meet us!
+      cta: Discover our events in %{city}
+      events: Next events in %{city}
+      no_event: No events planned right now.
+      open_map: Open in map
+      title: Join us for an event
+      title_html: Join our next <i class="highlighted highlighted-red">events</i>
+    section_experience:
+      alt_picture: Students coding at Le Wagon %{city}
+      cta: Ask your questions to %{contact}
+      specifics:
+        accomodation: Help for accomodation
+        installments: Installments
+        language: Course in
+        scholarship: Scholarship available
+        visa: Visa assistance
+      title_html: What makes our <i class="highlighted highlighted-purple">%{city}</i>
+        bootcamp so special
+    section_financing_option:
+      alt_logo_1: Bildungsgutschein by the Bundesagentur für Arbeit or Job Center
+      alt_logo_2: Study first and pay later – based on your income with CHANCEN eG
+      alt_picture_1: Le Wagon provides a certificate referrenced at the RNCP
+      alt_picture_2: Le Wagon has received the GEN label
+      alt_picture_2_1: Le Wagon is referrenced on Datadock, check your OPCA
+      alt_picture_3: Le Wagon is eligible to the CPF
+      content_html: |
+        <p>Le Wagon's FullStack bootcamp provides a certificate called « Concepteur - développeur d'applications web », referenced by the RNCP (Répertoire National des Certifications Professionnelles). This means that it is <strong>eligible to the CPF (Compte Personnel de Formation)</strong>. If you already know how the CPF works, you will simply need this code to submit your financing request: <strong>247187</strong>.</p>
+        <p>Otherwise, we have written a <a href="https://www.lewagon.com/fr/blog/cpf-comment-beneficier-de-votre-compte-personnel-de-formation" target="_blank" rel="nofollow noopener">quick article on the subject</a> (in French).</p>
+        <p>Le Wagon's FullStack bootcamp is also referrenced on <strong>Datadock</strong>, which enables you to request financing from your <a href="https://www.cpformation.com/liste-des-opca/" target="_blank" rel="nofollow noopener">OPCA</a>. Don't hesitate to <a href="https://www.lewagon.com/contact" target="_blank" rel="nofollow noopener">contact us</a> so that we can help you in your search for financing options in France!</p>
+      germany_main_title_html: '<i class="highlighted highlighted-purple">Financing</i>
+        options in Germany
+
+'
+      germany_option_1_content_html: |
+        <p>Le Wagon's 9 - week Full - Stack Web Development Program is now counted as a vocational training in Germany. This means that if you are <strong>registered in Germany and unemployed</strong> (or soon to be), you are eligible to receive a Bildungsgutschein (an education voucher) from the <strong>Bundesagentur</strong> für Arbeit or Job Center and take our course for free.</p>
+        <p>The aim of the Bildungsgutschein (education voucher) is to train people with new skills in order to find a new career path or job.</p>
+        <p>How to apply: You will find more information <a href="https://info.lewagon.com/berlin_bildungsgutschein" target="_blank" rel="nofollow noopener">more information here</a>.</p>
+      germany_option_1_title_html: 'Bildungsgutschein by the Bundesagentur für Arbeit
+        or Job Center
+
+'
+      germany_option_2_content_html: |
+        <p>The Income Share Agreement (ISA) is the backbone of CHANCEN eG's fair financial solution. <strong>CHANCEN eG covers your tuition fees whilst you focus on the bootcamp</strong>. You will begin repayments once you earn a minimum annual salary. You will pay back a set percentage of your income for a maximum of 5 years.</p>
+        <p>How to apply: First submit your application to Le Wagon <a href="https://www.lewagon.com/berlin/apply">here</a> then ap­ply for the Income Share Agreement with CHANCEN eG. For your ISA application complete the online form found <a href="https://chancen-eg.de/lewagon" target="_blank" rel="nofollow noopener">here</a>. If you pass the interview you sign an Income Share Agreement with CHANCEN eG.</p>
+      germany_option_2_title_html: 'Study first and pay later – based on your income
+        with CHANCEN eG
+
+'
+      title_html: '<i class="highlighted highlighted-purple">Financing</i> options
+        in France
+
+'
+    section_german_financing_options:
+      alt_picture: Student at Le Wagon %{city}
+      bildungsgutschein_content_html: Le Wagon's Web Development course is now officially
+        certified by the Bundesagentur für Arbeit (or Job Center)! This means that
+        <strong>our full-time (9 weeks) and part-time (24 weeks) web development courses</strong>
+        now count as a vocational training. If you are unemployed (or soon to be)
+        and registered in Germany, you will be eligible to receive a Bildungsgutschein
+        and learn to code entirely for free.
+      bildungsgutschein_title: Bildungsgutschein with Bundesagentur für Arbeit (or
+        Job Center)
+      chancen_content_html: With an Income Share Agreement, you can focus on the bootcamp,
+        while our partner CHANCEN eG takes care of your tuition fees partially or
+        completely during the time of the bootcamp. When you graduate, income based
+        repayments are made to Chancen eG over a 5 year period. You can now apply
+        for <strong>our full-time (9 weeks) and part-time (24 weeks) web development
+        and data science courses</strong>.
+      chancen_title: Income Share Agreement with CHANCEN eG
+      cta: Find out how to apply here
+      title_html: <i class="highlighted highlighted-red">Financing options</i> in
+        %{city}
+    section_graduates:
+      content: Hundreds of people have graduated from Le Wagon %{city} coding bootcamp
+        and have turned their dreams into reality. Get inspired by their stories.
+      graduate_liste_title: Now %{position}
+      graduate_position_html: Now <strong>%{position}</strong> at <strong>%{company}</strong>
+      graduate_title_html: Now <strong>%{position}</strong>
+      title: Meet our %{city} graduates
+      title_html: Meet our %{city} <i class="highlighted highlighted-red">graduates</i>
+    section_introduction:
+      content: During our 9-week coding bootcamp, build several web applications and
+        your own personal project. Create a solid Github portfolio and learn to work
+        within a tech team.
+      multiple_programs:
+        content: During our full-time or part-time coding bootcamp, build several
+          web applications and your own personal project. Create a solid Github portfolio
+          and learn to work within a tech team.
+        discover: 'Discover our bootcamps:'
+        full_time: Full-Time
+        or: or
+        part_time: Part-Time
+      title_html: Join our <i class="highlighted highlighted-red">Web Development</i>
+        Course.
+    section_lifestyle:
+      catchline: Images are worth a thousand words. Follow our Instagram and and get
+        a feel for the vibes of our %{city} coding bootcamp!
+      instagram_html: Follow us on Instagram <abbr class="info-link">@%{instagram}</abbr>
+      posts: Read our latest posts.
+      title: A taste of Le Wagon %{city}
+      title_html: A <i class="highlighted highlighted-purple">taste</i> of Le Wagon
+        %{city}
+    section_posts:
+      catchline: Read our latest posts.
+      content: "Local events, alumni launching their startups or joining the best
+        companies, new scholarship programs... Read the latest news from Le Wagon
+        %{city}.\n\n"
+      title: What's new at Le Wagon %{city}?
+      title_html: What's <i class="highlighted highlighted-red">new</i> at Le Wagon
+        %{city}?
+    section_products:
+      catchline: Our students had 2 weeks to invent, design, code and pitch their
+        idea.
+      cta: More about our program
+      product_details_mobile_html: Built by %{alumnus_first_name} %{alumnus_last_name}<br>in
+        <strong>%{city}</strong>
+      title_empty_html: 'See what <i class="highlighted highlighted-green">our students</i>have
+        built
+
+'
+      title_html: Products <i class="highlighted highlighted-blue">built</i> in %{city}.
+    section_scholarships:
+      cofounders_scholarship: Startup Co-founders
+      content: Find out if you are eligible for special offers in your city
+      early_birds_scholarship: Early birds
+      locals_scholarship: Locals scholarship
+      title_html: Special offers and <i class="highlighted highlighted-red">scholarships</i>
+      women_in_tech_scholarship: Women in Tech
+    section_teachers:
+      content: 'Our %{city} team members are all passionate about education. They
+        have one common aim: to give you the best learning experience you can get,
+        and help you achieve your goals during and after the course.'
+      more_about: more about %{teacher}
+      picture_alt: "%{name}, %{job} at Le Wagon %{city}"
+      title: Meet our staff
+      title_html: Our %{city} <i class="highlighted highlighted-red">staff</i>
+    section_uk_financing_options:
+      alt_picture: Student at Le Wagon %{city}
+      instalments_content_html: Pay your tuition in instalments, where the deposit
+        is paid to secure your seat on the bootcamp, and then the remaining balance
+        can be paid over 6 monthly instalments (there is a £500 management fee associated
+        with this option).
+      instalments_link: More information, including eligibility criteria, is available
+        here
+      instalments_title: Instalments - pay while you study
+      student_loan_content_html: Future Finance provides student loans of between
+        £2,000 and £40,000 for tuition fees and cost of living.
+      student_loan_link: More information is available here
+      student_loan_title: Student loan
+      title_html: Find the right <i class="highlighted highlighted-red">financing
+        option</i> for you
+      upfront_content_html: A deposit of £2,500 is due upon signature of the contract,
+        and the remaining balance is paid 1 week before the bootcamp start date.
+      upfront_title: Upfront - pay before you start
+    wechat:
+      cta: Join our WeChat
+  components:
+    company_card:
+      hired_html: 'Hired <strong>%{hired_count} graduates</strong>
+
+'
+    event_card:
+      cta_event_attendee: Register now
+      cta_hiring_partner: Register as a recruiter
+      event_partnership: in partnership with
+      more_info: More info
+  contact:
+    catchline: Choose a campus in the list to contact us
+    city_informations:
+      city_contact: Your contact in %{city}
+      link: More info
+      warning: "%{contact} will contact you back as soon as possible."
+    contact_form:
+      city_select: Who do you want to reach out?
+      content: Your message
+      email: Email
+      first_name: First name
+      form_title: Contact us
+      last_name: last name
+      privacy_policy_consent_html: By submitting this form, I accept that my data
+        may be used for a quote request and the commercial relationship that may result
+        from it. Check out our complete <a href="https://www.iubenda.com/privacy-policy/7967062/legal"
+        rel="nofollow noopener" target="_blank">Privacy Policy</a>.
+      subject: Subject
+      submit: Send message
+    filters:
+      all_cities: Find a campus
+    page_description: 'Le Wagon is a global community with campuses all around the
+      world. Each city has its own ecosystem and network of graduates: find the contact
+      of the one that is made for you!'
+    page_title: Conctact us
+  corona:
+    banner: 'We are now running hybrid classes: learn to code from home or on campus.
+      <strong>Learn more</strong> > '
+    city_status_link: Check out each Le Wagon City's status
+    main_intro_part_one_html: In this time of uncertainty due to COVID-19 outbreak,
+      it can be difficult to make decisions and prepare for the next weeks or months.
+      To be transparent with our students and staff, we summarise in this document
+      all the <strong>safety measures Le Wagon has put in place, the situation in
+      each of our campuses and the adaptations we have made to our programs to optimise
+      remote learning</strong> when necessary and provide the best education experience
+      as well as the safest environment for our students, teachers and staff.
+    main_intro_part_two: All Le Wagon teams are ready to face this unprecedented challenge
+      and extremely motivated to help our students make the most out of this period,
+      acquire strong technical skills and achieve their objectives after their bootcamp.
+    main_title: Some campuses are running their courses remotely in response to COVID-19.
+    measures:
+      camp_policies_list:
+        intro: 'We make sure health policies are strictly applied and have also set
+          up our own campus policies:'
+        item_four_html: Students and staff stay at their desk, including for lunch
+          (we have stopped group lunches) and we prevent them from touching or sharing
+          any laptops.
+        item_one_html: Everyone will have to adhere to a strict <strong>hand-washing</strong>
+          policy.
+        item_three_html: We have replaced all on-campus public events by <strong>webinars
+          and online events</strong>.
+        item_two_html: Our spaces have been adapted to keep <strong>maximum distances</strong>
+          between everyone.
+      illness_and_travel_list:
+        intro: 'We also strictly follow public policies regarding travel and symptoms
+          of COVID-19:'
+        item_one_html: "<strong>Illness and symptoms:</strong> Students or staff who
+          feel ill or display symptoms (including fever, cough, or sore throat) have
+          to report to the campus manager and stay home for a minimum 14-day period
+          of self-quarantine. There are arrangements in place such that anyone affected
+          can follow the courses, stay in contact with and ask our teaching staff
+          questions using Slack video calls, to ensure their learning experience is
+          not affected."
+        item_two_html: "<strong>Travel:</strong> We also ask any students or staff
+          who have recently travelled to high-risk countries or regions, or have come
+          into contact with people with who display symptoms of COVID-19 to alert
+          this to the campus manager so that we can take necessary actions. Students
+          or staff who have recently travelled or plan to travel to any country or
+          region outside of the city of their campus also have to inform our team,
+          monitor their symptoms closely and to follow a 14 day period of self-quarantine
+          when they come back to the city."
+      safety_measures_list:
+        intro: 'We have put in place all the safety measures to create the safest
+          possible learning environment for our students and staff:'
+        item_one_html: <strong>Monitoring:</strong> In every city where Le Wagon operates,
+          our local team is closely monitoring the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+          target="_blank" rel="noopener">status of COVID-19 outbreak</a> and strictly
+          applying recommendations from the <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019?mc_cid=2910c151d4&mc_eid=2bd0fb4d2e"
+          target="_blank" rel="noopener">World Health Organization</a>, the government
+          (e.g. see <a href="https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public"
+          target="_blank" rel="noopener">UK</a>, <a href="https://www.gouvernement.fr/info-coronavirus#xtor=SEC-3-GOO-[{adgroup}]-[425080454107]-search-[coronavirus%20france]"
+          target="_blank" rel="noopener">France</a> or <a href="https://www.bundesregierung.de/breg-de/themen/coronavirus/coronavirus-1725960"
+          target="_blank" rel="noopener">Germany</a> recommendations) and public health
+          authorities.
+        item_three_html: "<strong>Sanitation:</strong> sanitising stations are spread
+          in the campus with enough stock to apply sanitation routines several times
+          a day for all students and staff."
+        item_two_html: "<strong>Cleaning:</strong> we have reinforced daily cleaning
+          and set up deep sanitisation of our campuses every week."
+      title: Safety measures and policies
+    remote:
+      alert: 'If you are a student about to start a remote bootcamp at Le Wagon, here
+        below we give you a taste of what it will look like:'
+      full_time:
+        alert: By coding and working remotely like a lot of developers in the real
+          world (in companies with remote policies or as a freelance developer), you
+          will learn how to adapt and develop your collaboration skills much faster.
+          All this with the same support from our teachers and teaching assistants
+          and the same interactions with your classmates as in our on-campus course.
+        coding_challenges:
+          text_part_one: After the lecture, you'll work on programming challenges
+            as you would do in our on-campus course. For that, you will have the same
+            help from our teachers and teaching assistants as on on-campus. Teacher
+            and teaching assistants will be ready to provide 1:1 support via video
+            calls on Slack where they will help you solve your problems whenever you
+            are stuck. Below is an example of how you will post a question (we call
+            it a ticket) on our platform and receive a swift answer from a teacher
+            to start via a video call.
+          text_part_two: In addition, you will team up every day with a new classmate
+            (called your "buddy") and you will help each other using Slack instant
+            messaging. Right after the lecture, you'll launch a slack call to go through
+            the instruction of each challenge and discuss them with your buddy. Then,
+            you'll just leave this call opened throughout the day (in mute) and you'll
+            be able to unmute and discuss with your buddy at any time (even sharing
+            your screen), exactly like you would do in a real classroom with your
+            buddy right next to you.
+          title: Coding challenges (10:30 AM - 6:00 PM)
+        lecture:
+          text_html: "Every day, your lead teacher will launch a live lecture at \U0001F558
+            <strong>9:00 a.m.</strong> on Zoom (or using Slack Call if the class has
+            less than 15 students). All students will join <strong>on time</strong>
+            and will be able to ask questions at any time during the lecture. All
+            the lectures are recorded and will be available on Le Wagon's learning
+            platform so that students will be able to catch up if they miss a lecture
+            during the weekend."
+          title: Lecture (9:00 AM)
+        live_code:
+          text_html: "At \U0001F554 <strong>6:00 p.m.</strong> you will start the
+            live-code. Your lead teacher will invite all the class to join on a Zoom
+            meeting and he/she will correct one challenge of the day (or a new challenge
+            introducing additional concepts). As in the morning lecture, you will
+            be able to interact and ask all your questions."
+          title: Live-code (6:00 PM - 7:30 PM)
+        photo: Le Wagon provides 1:1 support via video calls on Slack at all times
+        title: Full-Time Remote
+      intro_part_one: We have made all the necessary adaptations to provide a hybrid
+        or totally remote bootcamp in all the Le Wagon cities where necessary. We
+        have the resources and tools to temporarily switch to remote learning and
+        ensure an engaging experience for our students.
+      intro_part_three: This is a temporary measure and will be in place until the
+        COVID-19 outbreak gets resolved. If things are resolved sooner, we will ask
+        students to come back to campus to finish their course.
+      intro_part_two: In such a case, students will have remote lectures and live-codes
+        using a live video call (with Slack or Zoom) and they will be able to ask
+        questions when they feel stuck on any of their exercises throughout the day
+        as well as get real-time help from teachers and teaching assistants - exactly
+        as they would during an on-campus bootcamp.
+      part_time:
+        intro: As a part-time student, you will have remote sessions with the same
+          schedule as initially planned for on-campus bootcamps, meaning on Tuesday
+          evening, Thursday evening and Saturday during the day.
+        list:
+          item_four_html: "<strong>Lectures and flashcards:</strong> Of course, we
+            will expect you to prepare every remote session by watching the lecture
+            of the day and doing your flashcards beforehand, as you would do for the
+            on-campus course."
+          item_one_html: "<strong>Coding challenges:</strong> during every session
+            (evenings and Saturday), you'll work on our coding challenges. For that,
+            you will have the same help from our teachers and teaching assistants
+            as you would in the on-campus course and they will be ready to provide
+            1:1 support via slack calls at any time to help you solve your problems
+            whenever you are feel stuck (exactly as described in the section above
+            about coding challenges for full-time students)."
+          item_three_html: "<strong>Live-corrections:</strong> Twice a week, you will
+            have live corrections of some important coding challenges during a Zoom
+            meeting where the teacher will go through all the steps to solve an exercise
+            with all the class, answering all of your questions."
+          item_two_html: <strong>Buddy:</strong> like full-time students, you will
+            also team up with different classmates and work on the exercises together
+            via Slack instant messaging to help each other (exactly as described in
+            the section above about "buddy system" for full-time students).
+        title: Part-time Remote
+      temporary:
+        alert: All Le Wagon's staff, teachers, teaching assistants, partners and tech
+          communities around the world are prepared and very determined to face the
+          challenge ahead. We will help each of our students to emerge from this troubled
+          period, not only with strong technical skills, but also with a unique ability
+          to adapt and to collaborate with each others, which we are sure will be
+          very useful for their future career as developers or freelancers.
+        intro: We have adapted our bootcamps to make the most out of remote work as
+          a temporary solution for cities that cannot operate on-campus bootcamps.
+          Obviously, our hope is to be able to welcome students on-campus again as
+          soon as the situation improves and local authorities allow us to do so.
+        title: Remote Learning as a temporary solution
+      title: Le Wagon's Remote Bootcamps
+    situation:
+      alert_html: As the COVID-19 outbreak evolves quickly in every city, we recommend
+        you to check out <a href="https://www.notion.so/lewagon/Le-Wagon-s-status-per-city-3196c59986c3461bb112ccc0be21925b"
+        target="_blank" rel="noopener">Le Wagon's status per city</a> to have the
+        most up-to-date information about each campus and the details about their
+        next bootcamps (start date, on-campus or remote adaptations, contact info).
+      intro: In every city, we are closely monitoring the status of the outbreak and
+        strictly applying recommendations from the World Health Organisation, governments
+        and public health authorities.
+      list:
+        intro: 'Each of our cities is in a different situation:'
+        item_one_html: Some cities can operate on-campus, keeping their next batch
+          at the start date initially planned, and applying very strict safety measures
+          as described below in <strong>Safety measure and policies</strong>.
+        item_three_html: Finally, some of our cities have already started running
+          their bootcamps remotely with all the tools, resources and support from
+          our teachers to engage our students and ensure they make the most out of
+          their bootcamp while locked at home. Our remote adaptations are detailed
+          below in the section <strong>Remote bootcamp</strong> giving you more details
+          on what a remote experience looks like for our students. Some of these cities
+          might have to start their next bootcamps remotely if lockdown periods are
+          maintained or extended.
+        item_two: Other cities might have to postpone their upcoming bootcamps by
+          a few weeks, depending on the decisions of their local authorities (lockdown
+          period, closed borders).
+      title: The situation in each Le Wagon city
+  cta:
+    apply: Apply
+    apply_now: Apply now
+    apply_to_city: Apply now
+    back_home: Bring me back home
+    browse_our_campuses: Find a campus
+    discover_our_campus_in_city: Discover our campus in %{city}
+    discover_our_courses: Discover our courses
+    discover_our_program: Discover our program
+    discover_our_webinars: Discover our webinars
+    discover_product: Discover %{product}
+    discover_us: Discover our program
+    keep_me_updated: Keep me updated
+    register_now: Register now
+    see_city_campus: See %{city} campus
+    select_another_city: Find another campus
+    select_city: Find a campus
+  data_program:
+    apply_to_data: Apply to our data science course
+    apply_to_data_short: Apply now
+    catchline_full_time: In 9 intensive weeks, learn Data Science from Python to advanced
+      Machine Learning, get all the skills to join a Data Science team and boost your
+      career.
+    main_title: Data Science course
+    main_title_city: Data science course in %{city}
+  data_science:
+    curriculum_tab:
+      data_analysis: Data Analysis
+      data_engineering: Data engineering
+      decision_science: Decision Science
+      deep_learning: Deep learning
+      final_projects: Final Projects
+      machine_learning: Machine Learning
+      preparation_work: Admission & prepwork
+    curriculum_timing:
+      fourty_five_hours: 45 hours
+      fourty_hours: 40h online
+      ninety_hours: 90 hours
+      one_week: 1 week
+      two_weeks: 2 weeks
+    data_analysis:
+      data_visualization_content_html: 'Make your data analyses more visual and understandable
+        by including data visualizations in your Notebook. Learn how to plot your
+        data frames using Python libraries such as <a href="https://matplotlib.org/"
+        target="_blank" rel="nofollow noopener">matplotlib</a> and <a href="https://seaborn.pydata.org/"
+        target="_blank" rel="nofollow noopener">seaborn</a> and transform your data
+        into actionable insights.
+
+'
+      data_visualization_title: Data Visualization
+      python_for_data_science_content: Learn programming in Python, how to work with
+        Jupyter Notebook and to use powerful Python libraries like Pandas and NumPy
+        to explore and analyze big data sets. Collect data from various sources, including
+        CSV files, SQL queries on relational databases, Google Big Query, APIs and
+        Web scraping.
+      python_for_data_science_title: Python for Data Science
+      relational_database_sql_content: Learn how to formulate a good question and
+        how to answer it by building the right SQL query. This module will cover schema
+        architecture and then dive deep into the advanced manipulation of SELECT to
+        extract useful information from a stand-alone database or using a SQL client
+        software like DBeaver.
+      relational_database_sql_title: Relational Database & SQL
+      statistics_content: Understand the underlying math behind all the libraries
+        and models used in the bootcamp. Become comfortable with the basic concepts
+        of statistics & probabilities (mean, variance, random variable, Bayes's Theorem,
+        etc.) and with matrix computation, at the core of numerical operations in
+        libraries like Pandas and Numpy.
+      statistics_title: Statistics, Probability, Linear Algebra
+    data_engineering:
+      deploying_to_production_content: Finally, we'll show you how to deploy your
+        code and model to production. Using Google Cloud AI Platform, you'll be able
+        to train your model at scale, package it and make it available to the world.
+        Cherry on top, you will use a Docker environment to deploy your own RESTful
+        Flask API which could be plugged to any front-end interface.
+      deploying_to_production_title: Deploying to production with Google Cloud Platform
+      machine_learning_pipeline_content: Move from Jupyter Notebook to a code editor
+        and learn how to setup a machine learning project in the right way in order
+        to quickly and confidently iterate. Learn how to convert a machine learning
+        model into a model with a robust and scalable pipeline with sklearn-pipeline
+        using encoders and transformers.
+      machine_learning_pipeline_title: Machine Learning Pipeline
+      machine_learning_workflow_content: Building a machine learning model from start
+        to finish requires a lot of data preparation, experimentation, iteration and
+        tuning. We'll teach you how to do your feature engineering and hyperparameter
+        tuning in order to build the best model. For this, we will leverage a library
+        called MLflow.
+      machine_learning_workflow_title: Machine Learning workflow with MLflow
+    data_science_toolkit:
+      content_1: Learn programming in Python, how to work with Jupyter Notebook and
+        to use powerful Python libraries like Pandas and NumPy to explore and analyze
+        big data sets. Collect data from various sources, including CSV files, SQL
+        queries on relational databases, Google Big Query, APIs and Web scraping.
+      content_2: Learn how to formulate a good question and how to answer it by building
+        the right SQL query. This module will cover schema architecture and then dive
+        deep into the advanced manipulation of SELECT to extract useful information
+        from a stand-alone database or using a SQL client software like DBeaver.
+      content_3: Make your data analysis more visual and understandable by including
+        data visualizations in your Notebook. Learn how to plot your data frames using
+        Python libraries such as matplotlib and seaborn and transform your data into
+        actionable insights.
+      content_4: Understand the underlying math behind all the libraries and models
+        used in the bootcamp. Become comfortable with the basic concepts of statistics
+        & probabilities (mean, variance, random variable, Bayes's Theorem, etc.) and
+        with matrix computation, at the core of numerical operations in libraries
+        like Pandas and Numpy.
+      title_1: Python for Data Science
+      title_2: Relational Database & SQL
+      title_3: Data Visualization
+      title_4: Statistics, Probability, Linear Algebra
+    decision_science:
+      communication_content: 'Data analysts are meant to communicate their findings
+        to non-technical audiences: You will learn how to create impact by explaining
+        your technical insights and turn them into business decisions using cost/benefits
+        analysis. You''ll be able to share your progress, present and compare your
+        results to your teammates.'
+      communication_title: Communication
+      statistical_inferences_content: You'll learn how to structure a Python repository
+        with object-oriented programming in order to clean your code and make it re-usable,
+        how to survive the data preparation phase of a vast dataset, and how to find
+        and interpret meaningful statistical results based on multivariate regression
+        models
+      statistical_inferences_title: Statistical inferences
+    deep_learning:
+      computer_vision_content: Go further into computer vision with Deep Learning
+        building networks for object detection and recognition. Implement advanced
+        techniques like data augmentation to augment your training set by computing
+        image perturbations (random crops, intensity changes etc) in order to improve
+        your model's generalization.
+      computer_vision_title: Computer Vision
+      content_1: Get comfortable with managing high-dimensional variables and transforming
+        them into manageable input. Learn classic preprocessing techniques for images
+        like normalization, standardization and whitening. Apply the right type of
+        encodings to prepare your text data for different NLP tasks (Natural Language
+        Processing).
+      content_2: Understand the architecture of neural networks (neurons, layers,
+        stacks) and their parameters (activation functions, loss function, optimizer).
+        Become autonomous to build your own networks like Convolutional Neural Networks
+        (for images), Recurrent Neural Networks (for time-series) and Natural Language
+        Processing networks (for text).
+      content_3_html: Discover a new library called <a href="https://keras.io" target="_blank"
+        rel="nofollow noopener">keras</a>, which is a developer-friendly wrapper over
+        <a href="https://www.tensorflow.org" target="_blank" rel="nofollow noopener">tensorflow</a>,
+        a Deep Learning library created by Google. We'll teach you the fundamental
+        techniques to build your first deep learning model with Keras.
+      content_4: Go further into computer vision with Deep Learning building networks
+        for object detection and recognition. Implement advanced techniques like data
+        augmentation to augment your training set by computing image perturbations
+        (random crops, intensity changes etc) in order to improve your model's generalization.
+      deep_learning_with_keras_content_html: Discover a new library called <a href="https://keras.io"
+        target="_blank" rel="nofollow noopener">keras</a>, which is a developer-friendly
+        wrapper over <a href="https://www.tensorflow.org" target="_blank" rel="nofollow
+        noopener">tensorflow</a>, a Deep Learning library created by Google. We'll
+        teach you the fundamental techniques to build your first deep learning model
+        with Keras.
+      deep_learning_with_keras_title: Deep Learning with Keras
+      managing_images_and_text_data_content: Get comfortable into managing high-dimensional
+        variables and transforming them into manageable input. Learn classic preprocessing
+        techniques for images like normalization, standardization and whitening. Apply
+        the right type of encodings to prepare your text data for different NLP tasks
+        (Natural Language Processing).
+      managing_images_and_text_data_title: Managing Images and Text data
+      neural_networks_content: Understand the architecture of neural networks (neurons,
+        layers, stacks) and their parameters (activation functions, loss function,
+        optimizer). Become autonomous to build your own networks like Convolutional
+        Neural Networks (for images), Recurrent Neural Networks (for time-series)
+        and Natural Language Processing networks (for text).
+      neural_networks_title: Neural Networks
+      title_1: Managing Images and Text data
+      title_2: Neural Networks
+      title_3: Deep Learning with Keras
+      title_4: Computer Vision
+    final_projects:
+      content_1: 'Time to solve a real-life problem: "as a data scientist working
+        for a major e-commerce company, how can I find interesting recommendations
+        to improve our website''s performance?". You''ll learn how to structure a
+        Python repository with object-oriented programming in order to collaborate
+        efficiently, how to survive the data preparation phase of a vast dataset,
+        how to find and interpret meaningful statistical results quickly before making
+        advanced predictions, and how to explain your results to a non-technical audience
+        thanks to cost/benefits analysis. You''ll be working in group of 3-4 to share
+        your progress, present and compare your results."
+
+'
+      content_2: After this first e-commerce project of one week, you'll spend the
+        next two weeks on a group project working on an exciting data science problem
+        you want to solve! You will use a mix of your own datasets (if you have any
+        from your company / non-profit organisation) and open-data repositories (Government
+        initiatives, Kaggle, etc.). It will be a great way to practice all the tools,
+        techniques and methodologies covered in the Data Science Course and will make
+        you realize how autonomous you have become.
+      final_projects_content_html: You'll spend the last two weeks on a group project
+        working on an exciting data science problem you want to solve! As a team,
+        you'll learn how to collaborate efficiently on a real data science project
+        through a common Python repository and the Git flow.  You will use a mix of
+        your own datasets (if you have any from your company / non-profit organisation)
+        and open-data <a href="https://datasetsearch.research.google.com/" target="_blank"
+        rel="nofollow noopener">repositories</a> (Government initiatives, Kaggle,
+        etc.). It will be a great way to practise all the tools, techniques and methodologies
+        covered in the Data Science Course and will make you realize how autonomous
+        you have become.
+      final_projects_title: Student Projects
+      student_projects_content_html: You'll spend the last two weeks on a group project
+        working on an exciting data science problem you want to solve! As a team,
+        you'll learn how to collaborate efficiently on a real data science project
+        through a common Python repository and the Git flow.  You will use a mix of
+        your own datasets (if you have any from your company / non-profit organisation)
+        and open-data <a href="https://datasetsearch.research.google.com/" target="_blank"
+        rel="nofollow noopener">repositories</a> (Government initiatives, Kaggle,
+        etc.). It will be a great way to practise all the tools, techniques and methodologies
+        covered in the Data Science Course and will make you realize how autonomous
+        you have become.
+      title_1: E-commerce project
+      title_2: Student Projects
+    full_time_nav_1_html: Preparation Work<i>~40 hours</i>
+    full_time_nav_2_html: Data Science Toolkit<i>2 weeks</i>
+    full_time_nav_3_html: Machine Learning<i>1.5 week</i>
+    full_time_nav_4_html: ML in Production<i>1.5 week</i>
+    full_time_nav_5_html: Deep Learning<i>1 week</i>
+    full_time_nav_6_html: Advanced Projects<i>3 weeks</i>
+    machine_learning:
+      content_1: Learn how to explore, clean, and prepare your dataset through preprocessing
+        techniques like vectorization. Get familiar with the classic models of supervised
+        learning - linear and logistic regressions. Learn how to solve prediction
+        and classification tasks with the Python library scikit-learn using learning
+        algorithms like KNN (k-nearest neighbors).
+      content_2: Implement training and testing phases to make sure your model can
+        be generalised to unseen data and deployed in production with predictable
+        accuracy. Learn how to prevent overfitting using regularization methods and
+        how to choose the right loss function to improve your model's accuracy.
+      content_3: Evaluate your model's performance by defining what to optimise and
+        the right error metrics in order to assess your business impact. Improve your
+        model's performance with validation methods such as cross validation or hyperparameter
+        tuning. Finally, discover a powerful supervised learning method called SVM
+        (Support Vector Machines).
+      content_4: Move to unsupervised learning and implement methods like PCA for
+        dimensionality reduction or clustering for discovering groups in a data set.
+        Complete your toolbelt with ensemble methods that combine other models to
+        improve performance, such as Random Forest or Gradient Boosting.
+      generalization_overfitting_content: Implement training and testing phases to
+        make sure your model can be generalised to unseen data and deployed in production
+        with predictable accuracy. Learn how to prevent overfitting using regularization
+        methods and how to chose the right loss function to improve your model's accuracy.
+      generalization_overfitting_title: Generalization and Overfitting
+      performance_metrics_content: Evaluate your model's performance by defining what
+        to optimise and the right error metrics in order to assess your business impact.
+        Improve your model's performance with validation methods such as cross validation
+        or hyperparameter tuning. Finally, discover a powerful supervised learning
+        method called SVM (Support Vector Machines).
+      performance_metrics_title: Performance Metrics
+      preprocessing_supervised_learning_content: Learn how to explore, clean, and
+        prepare your dataset through preprocessing techniques like vectorization.
+        Get familiar with the classic models of supervised learning - linear and logistic
+        regressions. Learn how to solve prediction and classification tasks with the
+        Python library scikit-learn using learning algorithms like KNN (k-nearest
+        neighbors).
+      preprocessing_supervised_learning_title: Preprocessing and Supervised Learning
+      title_1: Preprocessing and Supervised Learning
+      title_2: Generalization and Overfitting
+      title_3: Performance Metrics
+      title_4: Unsupervised Learning & Advanced Methods
+      unsupervised_learning_advanced_methods_content: Move to unsupervised learning
+        and implement methods like PCA for dimensionality reduction or clustering
+        for discovering groups in a data set. Complete your toolbelt with ensemble
+        method that combine other models to improve performance, such as Random Forest
+        or Gradient Boosting.
+      unsupervised_learning_advanced_methods_title: Unsupervised Learning & Advanced
+        Methods
+    menu: Data Science
+    menu_mobile:
+      full_time: Data Science - Full-time
+      part_time: Data Science - Part-time
+    ml_in_production:
+      content_1: Move from Jupyter Notebook to a code editor and learn how to set
+        up a machine learning project in the right way in order to quickly and confidently
+        iterate. Learn how to convert a machine learning model into a model with a
+        robust and scalable pipeline with sklearn-pipeline using encoders and transformers.
+      content_2: Building a machine learning model from start to finish requires a
+        lot of data preparation, experimentation, iteration and tuning. We'll teach
+        you how to do your feature engineering and hyperparameter tuning in order
+        to build the best model. For this, we will leverage a library called MLflow.
+      content_3: Finally, we'll show you how to deploy your code and model to production.
+        Using Google Cloud AI Platform and Airflow, you'll be able to train your model
+        at scale, package it and make it available to the world.
+      title_1: Machine Learning Pipeline
+      title_2: Machine Learning workflow with MLflow
+      title_3: Deploying to production with Google Cloud Platform
+    offering_page:
+      apply_to_data: Apply to our Data Science course
+      apply_to_data_short: Apply now
+      catchline_full_time: In 9 intensive weeks, learn Data Science from Python to
+        advanced Machine Learning, get all the skills to join a Data Science team
+        and boost your career.
+      catchline_part_time: In 24 intensive weeks, learn Data Science from Python to
+        advanced Machine Learning, get all the skills to join a Data Science team
+        and boost your career.
+      full_time_cover_picture_alt: " In 9 intensive weeks, learn Data Science from
+        Python to advanced Machine Learning at Le Wagon %{city}."
+      full_time_default_cover_picture_alt: In 9 intensive weeks, learn Data Science
+        from Python to advanced Machine Learning at Le Wagon.
+      main_title: Data Science course
+      main_title_city: Data Science course in
+      part_time_cover_picture_alt: " In 24 weeks, part-time, learn Data Science from
+        Python to advanced Machine Learning at Le Wagon %{city}"
+      part_time_default_cover_picture_alt: In 24 weeks, part-time, learn Data Science
+        from Python to advanced Machine Learning at Le Wagon.
+      program_full_time: Full-time (9 weeks)
+      program_part_time: Part-time (24 weeks)
+      program_part_time_nova: Part-time (24 weeks) @Nova SBE
+      section_career_services:
+        career_week_content_1: 'Access a complete guide to kick-start your Data Science
+          career after the course: boost your portfolio, find your dream job, leverage
+          on our %{alumni_count}  alumni community.'
+        career_week_content_2: Attend our job fairs and networking events, meet with
+          the best tech companies and receive offers by recruiters looking for talent
+          in data-related roles.
+        career_week_content_3: 'Our data science course alumni love to share their
+          experiences with fresh graduates: they explain how they found their job
+          as Data Scientist, Data Analyst or Data Engineer.'
+        career_week_content_4: Our local teams know their alumni and hiring partners,
+          what they are up to and what they are looking for. They introduce you to
+          the right people depending on your goal.
+        career_week_title_1: Career Playbook
+        career_week_title_2: Career Events
+        career_week_title_3: Alumni Coaching Sessions
+        career_week_title_4: Career Intros
+        content: Once the course ends, you benefit from our career services. We help
+          you meet with the best recruiters and connect with relevant alumni.
+        title_html: Find a data <i class="highlighted highlighted-blue">job</i> in
+          the best tech companies
+      section_curriculum:
+        full_time_content: Our course is designed to make you learn Data Science step
+          by step, starting with the basic data toolkit in Python and Mathematics
+          to the complete implementation and deployment cycle of machine learning
+          algorithms.
+        part_time_content: Our Data Science course is designed to make you learn step
+          by step, from the basic data toolkit in Python to implementing Machine Learning
+          model in a production environment.
+        title_html: Our data science  course <i class="highlighted highlighted-purple">curriculum</i>
+      section_faq:
+        content: 'If you got here, it means that you have questions about Le Wagon:
+          how to apply, who can join, what you'll learn… Good! We have the answers.'
+        title_html: Any questions about our program in <i class="highlighted highlighted-blue">%{city}</i>
+      section_financing:
+        content: Find out if you are eligible for special offers in %{city}.
+        title_html: Find the right <i class="highlighted highlighted-green">financing</i>
+          option for you
+      section_format:
+        catchline_html: Learn to code in 24 weeks with a tailor-made program adapted
+          to your busy schedule.
+        title_html: Our <i class="highlighted highlighted-green">part-time</i> format
+      section_hiring_partners:
+        content: The best companies partner with Le Wagon and hire our alumni as Data
+          Scientist, Data Analyst or Data Engineer.
+        title_html: Where our <i class="highlighted highlighted-green">alumni</i>
+          work in data
+      section_instructors:
+        content: Since day one, we've taken teaching seriously. Great teachers inspire
+          us to connect to topics on a profound level. Experience as a developer alone
+          doesn't necessarily make one an effective teacher — that's why we're passionate
+          about finding not only great engineers, but deeply committed, experienced
+          teachers.
+        title_html: Passionate <i class="highlighted highlighted-red">teachers</i>
+      section_overview:
+        full_time_content: Our full-time data science course gives you the skills
+          you need to launch your career in a data science team in only 9 weeks. From
+          Pandas to Deep Learning, you will finish the course knowing how to explore,
+          clean and transform data into actionable insights and how to implement machine
+          learning models from start to finish in a production environment, working
+          in teams with the best-in-class tool belt.
+        part_time_content: Our part-time data science course gives you the skills
+          you need to launch your career in a data science team, in 24 weeks studying
+          some weekday evenings and Saturdays. From Pandas to Deep Learning, you will
+          finish the course knowing how to explore, clean and transform data into
+          actionable insights and how to implement machine learning models from start
+          to finish in a production environment, working in teams with the best-in-class
+          tool belt.
+        picture_alt: Le Wagon's Data Science course gives you the data science skills
+          you need to launch your career in any data-related role.
+        title_html: Join a <i class="highlighted highlighted-red">unique</i> course
+      section_portfolio:
+        content: 'The last weeks of our Data Science course are dedicated to building
+          your own Data Science project: a personalised recommendations system, a
+          search engine, an image recognition app, a supply chain optimisation tool
+          or an e-commerce promotion & pricing app. As a result, you end up the course
+          with your own Data Science portfolio.'
+        title_html: Build your Data Science <i class="highlighted highlighted-blue">portfolio</i>
+      section_tooling:
+        content: Our Data Science course is just the beginning of the journey. Once
+          you graduate, you belong to a global tech community and have access to our
+          online platform to keep learning and growing.
+        title_html: Network and learning <i class="highlighted highlighted-red">platform</i>
+        tool_item_content_1: Get tips and advice from professional data scientists
+          & data analysts, access exclusive job and freelance opportunities from entrepreneurs
+          & developers.
+        tool_item_content_2: 'Access our online education platform at any time after
+          the course: you will find all data science lectures, screencasts, challenges
+          and flashcards.'
+        tool_item_content_3: Benefit from our global community of %{alumni_count}  alumni
+          working in data-related roles, but also entrepreneurs, developers and product
+          managers all over the world.
+        tool_item_content_4: 'Our different courses are running in %{city_count} campuses
+          all over the world: wherever you go, you belong to the Le Wagon community!'
+        tool_item_title_1: Slack groups
+        tool_item_title_2: Online classroom
+        tool_item_title_3: Tech community
+        tool_item_title_4: Global presence
+      section_typical_day:
+        catchline: From morning lectures to evening talks, every day is action-packed.
+        title_html: A typical <i class="highlighted highlighted-red">day</i> at Le
+          Wagon
+      section_typical_week:
+        catchline: Live a unique learning experience every week.
+        title_html: A <i class="highlighted highlighted-red">taste</i> of our program
+    part_time_nav_1_html: Preparation Work<i>~40 hours</i>
+    part_time_nav_2_html: Data Science Toolkit<i>90 hours</i>
+    part_time_nav_3_html: Machine Learning<i>70 hours</i>
+    part_time_nav_4_html: ML in Production<i>70 hours</i>
+    part_time_nav_5_html: Deep Learning<i>45 hours</i>
+    part_time_nav_6_html: Advanced Projects<i>135 hours</i>
+    prepwork:
+      content_html: <p>Our data science course is very intense. To save time and nail
+        it from the beginning, our students must complete an <a href="https://lew.ag/data-prepwork"
+        target="_blank" rel="nofollow noopener">online preparation</a> work before
+        starting the bootcamp. This work takes around 40 hours and covers the basics
+        of Python, the pre-requisite language of the course, and some mathematical
+        topics used every day by data scientists.</p>
+      prepwork_content_html: 'Our data science course is very intense. To save time
+        and nail it from the beginning, our students must complete an <a href="https://lew.ag/data-prepwork"
+        target="_blank" rel="nofollow noopener">online preparation work</a> before
+        starting the bootcamp. This work takes around 40 hours and covers the basics
+        of Python, the pre-requisite language of the course, and some mathematical
+        topics used every day by data scientists.
+
+'
+      prepwork_title: Start the bootcamp prepared!
+      title: Start the bootcamp prepared!
+    program_card:
+      description: From Python to advanced Machine Learning models, get all the skills
+        to join a Data Science team.
+      description_full_time_only: From Python to advanced Machine Learning models,
+        get all the skills to join a Data Science team.
+      description_part_time_only: From Python to advanced Machine Learning models,
+        get all the skills to join a Data Science team.
+      title: Data Science courses
+  date:
+    formats:
+      batch: "%b %e, %Y"
+      batch_starts: "%b %e"
+      event_card: "%b %d, %Y"
+      event_date_modal: "%B %e, %Y"
+      event_day_modal: "%e"
+      event_month_modal: "%b"
+      post_card: "%b %e %Y"
+  days:
+    friday: Friday
+    monday: Monday
+    sunday: Sunday
+    thursday: Thursday
+  download_syllabus:
+    business_syllabus_modal_confirmation_text: Please check your e-mails to find the
+      leaflet you requested.
+    business_syllabus_modal_submit: Receive our leaflet by email
+    business_syllabus_modal_title_html: Learn more about our <i class='highlighted
+      highlighted-red'>solutions</i>
+    catchline: Want to know more about Le Wagon's 9-week bootcamp?
+    cta: Download Syllabus
+    syllabus_custom_modal_title_html: Get our <i class='highlighted highlighted-red'>
+      %{program}</i> (%{program_format}) syllabus
+    syllabus_modal_city: Campus
+    syllabus_modal_confirmation: All good!
+    syllabus_modal_confirmation_text: Please check your e-mails to find the syllabus
+      you requested.
+    syllabus_modal_confirmation_text_html: Check your emails to find the<br><i class='highlighted
+      highlighted-red'>%{program}</i> (%{program_format}) syllabus<br>you requested.
+    syllabus_modal_email: Email
+    syllabus_modal_first_name: First Name
+    syllabus_modal_job_title: Job title
+    syllabus_modal_last_name: Last Name
+    syllabus_modal_options:
+      curiosity: I want to learn more about this topic out of curiosity
+      freelancer_nomad: I am or want to become a freelancer or digital nomad
+      placeholder: Select one
+      run_tech_company: I have or want to start my own company
+      student: After university, I want to join or create a tech startup
+      upskill_current_job: I want to gain technical skills to improve my current job
+      work_in_tech: I want to learn to code and change my career
+    syllabus_modal_phone: Phone
+    syllabus_modal_question: What's your goal for learning to code?
+    syllabus_modal_rgpd: By submitting this form, I accept that my data may be used
+      for a quote request and the commercial relationship that may come out of it.
+    syllabus_modal_submit: Receive our syllabus by email
+    syllabus_modal_title_html: 'Get our  <i class=''highlighted highlighted-red''>Web
+      development course</i> (full-time) syllabus
+
+'
+    syllabus_with_newsletter_html: I would like to receive the newsletter to keep
+      updated about Le Wagon's events & news in this city. Read our privacy policy
+      <a target='_blank' href='https://www.iubenda.com/privacy-policy/7967062/legal'>here</a>
+  email_validation:
+    did_you_mean: Oh oh. Did you mean %{alternative}?
+    disposable_address: We need an active address to send you an e-mail. Don't use
+      a disposable address!
+    mailbox_non_existant: It appears this mailbox does not exist. Did you make a typo?
+    valid_email_question: Are you sure this is a valid email address?
+  enterprise:
+    apply_mail_html: 'Contact Benjamin by email<i>%{email}</i>
+
+'
+    apply_phone_html: 'Call Benjamin<i>%{phone_number}</i>
+
+'
+    apply_to: Learn %{skill}
+    catchline: Train your teams with our cutting-edge executive courses in web development,
+      UX/UI design, data analysis, automation & product management.
+    category_options:
+      data_and_machine_learning: Data Analysis & Machine Learning
+      growth_and_hacking: Growth Hacking and automation
+      web_development: Web Development
+    corporate_testimonial:
+      corporate_company_html: 'at <strong>%{coporate_company}</strong>
+
+'
+      job_title_html: "<strong>%{job_title}</strong>\n"
+    courses:
+      card_content_1: Get the basics of HTML and CSS and learn to design a website,
+        embed a 3rd-party service and put your website online.
+      card_content_2: Collect, clean, explore, analyse and visualise data using Python,
+        SQL and Pandas to answer business questions.
+      card_content_3: Automate tasks with programming and APIs. Build KPIs, benchmark
+        your competitors or generate leads with web-scraping.
+      card_content_4: Build interactive prototype of web and mobile applicatons with
+        a user-centered approach and validate your UX with user testing.
+      card_content_5: Learn best practices to interact with developers and designers
+        team and organise your tech roadmap consistently with your business needs.
+      card_content_6: Build an internal coding bootcamp with us depending on your
+        needs and business objectives.
+      card_cta_1: Learn web development
+      card_cta_2: Learn data analysis
+      card_cta_3: Learn growth hacking
+      card_cta_4: Learn UX/UI design
+      card_cta_5: Learn product management
+      card_cta_6: Ask about tailor-made solutions
+      card_title_1: Web Development
+      card_title_2: Data Analysis & Machine Learning
+      card_title_3: Growth Hacking and automation
+      card_title_4: UI & UX Design
+      card_title_5: Product Management
+      card_title_6: Tailor-made bootcamps
+      subheading: 1 to 4 day intensive programs to learn actionable skills.
+      title: Discover our tech courses.
+      title_html: <i class="highlighted highlighted-blue">Discover</i> our tech courses.
+    cta-objectives: What is your goal?
+    cta_download_catalogue: Download our catalogue
+    customers:
+      title: Top companies work with us
+      title_html: <i class="highlighted highlighted-green">Best</i> companies work
+        with us
+    datatron:
+      cta: Book an assessment
+      datatron_subheading: We help you identify what's best for your organization.
+      datatron_title: Assess your tech needs
+      datatron_title_html: Assess your tech <i class="highlighted highlighted-red">needs</i>
+      item_content_1: Give your employees the basic tech skills, while installing
+        a continuous learning culture within your company.
+      item_content_2: Do you feel like some of your team members are undervalued?
+        Provide them with new actionable tech skills.
+      item_content_3: The perfect move to foster intrapreneurship, or give your employees
+        a huge career boost.
+      item_title_1: Spread digital literacy
+      item_title_2: Upgrade your talents
+      item_title_3: Launch your own bootcamp
+    data_science: Learn Data Science
+    data_science_details: Collect data, analyze it, make it speak through visualisation.
+    formats_subtitle: Discover our formats
+    formats_subtitle_html: 'Discover <i class="highlighted highlighted-yellow">our
+      formats</i>
+
+'
+    formats_title_html: 'One workshop<br>for each of <i class="highlighted highlighted-purple">your
+      goals</i>
+
+'
+    format_1_description_html: '1 full day, two workshops
+
+'
+    format_1_title: 'Motivate your teammates: give them the opportunity to learn how
+      to code'
+    format_2_description_html: '7 workshops to help your non-technical teams understand
+      the role of a Web Developer
+
+'
+    format_2_title: Improve communication between technical and marketing teams
+    format_3_description_html: '1 year of workshops on 6 different themes
+
+'
+    format_3_title: Transform project managers into "Product Owners"
+    format_4_description_html: '5 workshops about the Web Developer role
+
+'
+    format_4_title: Improve the ability of your HR team to evaluate technical talent
+    format_5_description_html: '1 set of workshops on frontend and backend development
+      to learn how to launch an MVP.
+
+'
+    format_5_title: Foster intraspreneurship by providing adequate resources
+    format_6_description_html: '3 workshops on web development and the workflow of
+      a startup
+
+'
+    format_6_title: Deliver faster by adopting a startup culture
+    fullstack: Learn Web Development
+    fullstack_details: From the database to the web browser, learn how a web application
+      is built.
+    go_further:
+      cta: Contact us
+      subheading: We can help.
+      title: Want to teach digital skills to your team?
+    main_title: Accelerate your digital transformation
+    main_title_html: Accelerate your <i class="highlighted highlighted-red">digital</i>
+      transformation
+    modal:
+      company: Company
+      contact_details: I'm %{first_name}, %{job_title} at Le Wagon. I will be delighted
+        to assist you in any enquiry you may have about our solutions. Feel free to
+        call me or send me an e-mail!
+      cta: Contact %{first_name} by e-mail
+      department: Department
+      department_options:
+        department_option_1: Digital transformation
+        department_option_2: Human Resources
+        department_option_3: IT
+        department_option_4: Marketing
+      email: Email
+      first_name: First name
+      follow_up: We will get back to you shortly.
+      interest: What are you interested in?
+      interest_options:
+        interest_option_1: Web Development
+        interest_option_2: Data Analysis & Machine Learning
+        interest_option_3: Growth Hacking and automation
+        interest_option_4: UI & UX Design
+        interest_option_5: Product Management
+        interest_option_6: Tailor-made bootcamps
+        interest_option_7: Other
+      last_name: Last name
+      local_contact_details: I'm %{first_name}, %{job_title} at Le Wagon %{city_name}.
+        I will be delighted to assist you in any enquiry you may have about our solutions.
+        Feel free to call me or send me an e-mail!
+      message: Tell us more about your needs
+      phone_number: Phone number
+      prompt: Select one
+      recipient: Who is the recipient?
+      recipient_options:
+        recipient_option_1: Only I
+        recipient_option_2: My team
+        recipient_option_3: Both
+      thank_you: Thank you for reaching out!
+      title: Request more information
+      title_html: Request more <i class="highlighted highlighted-red">information</i>
+    navbar_cta: Contact us
+    page_description: Train your teams with our cutting-edge executive courses in
+      web development, UX/UI design, data analysis, automation & product management.
+    page_title: Accelerate your digital transformation
+    page_title_html: Accelerate your digital transformation
+    pm: Learn Product Management
+    pm_details: User stories, collaborative workflow. Learn the good way to work on
+      a project within a team.
+    primary_cta: Book a call
+    prototyping: Learn lean Prototyping
+    prototyping_details: APIs are eating the world. Discover how startups can prototype
+      products just by connecting APIs.
+    secondary_cta: Call %{first_name}
+    skills_header: Workshops & Sprints designed for your company
+    skills_text_html: Through 2-hour talks, one-day workshops or one-week prototyping
+      sprints, <strong>we will teach you UI/UX Design, Product Management and web-development</strong>.
+    tech_slider:
+      slide_cta_1: Upskill your teams
+      slide_cta_2: Adopt Python
+      slide_cta_3: Boost your PMs
+      slide_cta_4: Empower your Marketers
+      slide_description_1: When it comes to digital, there is a basic understanding
+        that your team needs to have. We demystify concepts and buzz words to facilitate
+        their communication with technical teams & agencies. We also teach automation
+        logics and startups' working methods to make your business teams go further.
+      slide_description_2: If your consultants or finance team manage a lot of data,
+        Excel files may seem inappropriate, not easy to manipulate, or limited. If
+        you want to upgrade their data analysis abilities, teaching them new methods
+        to treat data, present it & categorize it, our dedicated Python course will
+        perfectly fit your needs.
+      slide_description_3: What if your Project Managers could directly build prototypes
+        instead of presenting PowerPoints? With our Product Management course, boost
+        your Project Managers' performance and efficiency, by enabling them to actually
+        create projects autonomously, and easily communicate about them.
+      slide_description_4: Through an intensive growth & automation course, give advanced
+        Growth Hacking skills to your Marketing Managers. In only 3 days, they'll
+        be able to build scripts in order to scrape data, automate their tasks, or
+        build their marketing KPIs.
+      slide_title_1: Bringing digital literacy to your team
+      slide_title_2: From Excel to Python
+      slide_title_3: Project managers turned Product owners
+      slide_title_4: Empower Marketers with Growth skills
+      subheading: Learn about the multiple ways to instigate tech in your company
+        culture.
+      title: Embrace technology in your company
+      title_html: <i class="highlighted highlighted-purple">Embrace</i> technology
+        in your company
+    testimonial_cta: Sign up your teammates
+    ui: Learn UI / UX
+    ui_details: Visible things makes communication easier. Learn to build wireframes
+      and mockups to discuss your ideas.
+    use_cases:
+      aside:
+        sharing: Share article
+      catchline: Want to know more about corporate solutions?
+      keep_reading:
+        cta: Read use case
+        title: Keep reading
+      reading_time: "%{read_time} min read in %{category}"
+      subheading: A few stories of companies we've helped grow.
+      title: Read our use cases
+      title_html: 'Read our <i class="highlighted highlighted-blue">use cases</i>
+
+'
+    watch: Our last corporate workshop "One Day of Code"
+    web_design: Learn Web Design
+    web_design_details: Build your own icons, keep control of your website without
+      always depending on contractors.
+    with_us_html: 'They work <i class="highlighted highlighted-red">with us</i>.
+
+'
+  events:
+    catchline: Come to our free coding courses,  tech talks & demo days
+    cta: Check out our next events
+    event_partners:
+      catchline: A series of unique tech workshops for beginners.
+      main_title_html: Learn to code with %{partner} & Le Wagon
+      page_description: A series of unique tech workshops for beginners.
+      page_title: Learn to code with %{partner} and Le Wagon
+      partner_next_events_link: Check all Le Wagon events
+      partner_next_events_title: Next workshops with %{partner}
+      partner_past_events_title: Past workshops
+    filters:
+      all_cities: All campuses
+      all_events: All events
+      all_partners: All partners
+      oops: Oops, we don't have any event matching your current request.
+      oops_cta: Try something else!
+    main_title: Learn to code in the best tech venues
+    page_description: Come to our free coding courses,  tech talks & demo days
+    page_title: Learn to code in the best tech venues with Le Wagon
+    placeholder: We host free evening workshops and entrepreneurial talks during the
+      week that are open to all. Come down and meet us!
+    register: Register now
+    section_events_list:
+      catchline: Come to our free coding workshops ans tech talks worldwide.
+      title: Start your journey into coding
+      title_html: Start your <i class="highlighted highlighted-red">journey</i> into
+        coding
+    section_event_partners:
+      catchline: More than %{startup_count}+ startup partners and a lot of great tech
+        events.
+      check_partner_events: See our next events with %{partner}
+      next_partner_events: Next event with %{partner}
+      title: Our startup network
+      title_html: Our <i class="highlighted highlighted-blue">startup</i> network
+  event_partner:
+    no_event: Oops. New events planned with %{partner} will be annouced soon!
+  faq:
+    main_title: Answers to your questions
+    main_title_html: Answers to <i class="highlighted highlighted-blue">your questions</i>
+    page_description: 'If you got here, it means that you have questions about Le
+      Wagon: how to apply, who can join, what you'll learn… Good! We have the answers
+      :)'
+    page_title: Le Wagon FAQ
+  flashes:
+    apply_error: Your application has not been submit yet. All required fields need
+      to be green!
+  footer:
+    about_us: About us
+    blog: Blog
+    contact_us: Contact us
+    corporate_training: Corporate
+    enterprise: Le Wagon executive
+    facebook: Facebook
+    faq: FAQ
+    follow_us: Follow us
+    headline_campuses: Find a campus
+    headline_menu: Know more
+    imprint: Imprint
+    instagram: Instagram
+    introduction: We're bringing tech skills to creative people
+    languages: Languages
+    leitbild: Leitbild
+    linkedin: Linkedin
+    podcast: Podcast
+    policy: Privacy Policy
+    press: Press
+    resources: Resources
+    team: Our team
+    twitter: Twitter
+    youtube: YouTube
+  go_further:
+    city_count: We are in %{cities} cities worldwide.
+    cta:
+      full_time_program: Discover our full-time program
+      part_time_program: Discover our part-time program
+      program: Discover our program
+    full_time: 9 weeks
+    generic_title: 'Interested in joining the #1 ranked coding bootcamp?'
+    next_batch: Next %{city} coding bootcamp starts on %{batch_start}
+    next_full_time_batch: Next %{city} full-time coding bootcamp starts on %{batch_start}
+    next_part_time_batch: Next %{city} part-time coding bootcamp starts on %{batch_start}
+    part_time: 24 weeks
+    title_html: Want to go further?<br>Learn to code in
+  go_further_enhanced:
+    city_count: We are in %{cities} cities worldwide.
+    cta:
+      full_time_program: Discover our full-time program
+      part_time_program: Discover our part-time program
+      program: Discover our program
+    download_syllabuses: Discover our full-time and part-time programs.
+    full_time: Join our %{weeks}-week %{program}.
+    generic_title: 'Interested in joining the #1 ranked coding bootcamp?'
+    next_batch: Next %{city} coding bootcamp starts on %{batch_start}
+    next_full_time_batch_html: Next <strong>%{city} %{program} full-time</strong>
+      coding bootcamp starts on <strong>%{batch_start}</strong>
+    next_part_time_batch_html: Next <strong>%{city} %{program} part-time</strong>
+      coding bootcamp starts on <strong>%{batch_start}</strong>
+    part_time: Join our %{weeks}-week %{program}.
+    title_html: Want to go further?
+  graduates:
+    card:
+      alumnus_company: at %{company}
+      alumnus_company_html: at <strong>%{company}</strong>
+      alumnus_name_html: Meet <i class="highlighted highlighted-red">%{alumnus}</i>
+      alumnus_position_html: Now %{job_title}
+      next: 'Next:'
+      next_alumnus_name: Meet %{alumnus}
+      now_working: Now working
+      title: Meet %{alumnus}
+    catchline: Learning how to code can lead to different paths. Our %{alumni_count}+
+      graduates have become FullStack developers, product managers, dev freelancers
+      or launched their tech startup.
+    cta: Discover their stories
+    filters:
+      all: All
+      engineers: Engineers
+      entrepreneurs: Entrepreneurs
+      freelancers: Freelancers
+      tech_roles: Tech roles
+    main_title: Meet our graduates
+    main_title_html: Meet our <i class="highlighted highlighted-red">graduates</i>
+    nav:
+      next_card_html: "<strong>Meet %{alumnus}</strong><br>Now %{job_title} at %{company}"
+    outcomes: Pick an outcome
+    page_description: Learning how to code can lead to different paths. Our %{alumni_count}+
+      graduates have become FullStack developers, product managers, dev freelancers
+      or launched their tech startup.
+    page_title: Meet our graduates
+  hiring_modal:
+    company: Company
+    email: Email
+    first_name: First Name
+    last_name: Last Name
+    locations: In which city would you like to meet our community ?
+    message: Why do you want to recruit Le Wagon's alumni?
+    phone_number: Phone Number
+    targets: What are you looking for?
+    thank_you:
+      follow_up: We will contact you shortly.
+      title: Thank You!
+    title: Join our hiring Network
+    website: Website
+  home:
+    campuses_finder:
+      coming_soon: Next batch coming soon
+      description: Le Wagon has campuses in %{city_count} cities all over the world.
+      next_open_apply_batch_start_html: 'Next batch starts on <strong>%{batch_start}</strong>
+
+'
+      title: Learn to code anywhere
+      title_html: 'Learn to code <i class="highlighted highlighted-blue">anywhere</i>
+
+'
+    companies:
+      cta: Discover our courses
+      description: Our coding bootcamp graduates work as software engineers, Product
+        Managers, Growth Hackers or UX/UI Designers in the most successful companies.
+        What do recruiters love about our alumni? They know how to solve problems,
+        communicate with a team and always keep a critical eye on their work.
+      hired_html: Hired <strong>%{hired_count} graduates</strong>
+      title_html: Leading companies<br><i class="highlighted highlighted-red">hire</i>
+        our graduates
+    content:
+      cite: Boris Paillard, CEO Le Wagon
+      follow_path_content_1: After university, many people feel like they're missing
+        the necessary skills to do something meaningful and exciting in their professional
+        life. If you want to learn practical and technical skills that will enable
+        you to quickly create your projects from scratch, or join a tech startup as
+        a developer, product manager or growth marketer, our coding bootcamps are
+        the perfect education experience.
+      follow_path_content_2: You might have been working in the same industry or job
+        for a few years, and feel a little unsatisfied. If you are looking for more
+        technical autonomy, freedom and drive, coding is definitely a tool that will
+        help you get there - either to launch your own company, become a full-time
+        or freelance developer, or develop technical projects in your current job.
+      follow_path_content_3: if you're working in tech but are not familiar with coding,
+        you probably feel a bit frustrated when talking to developers. If you want
+        to gain legitimacy and technicity to upskill, or simply communicate better
+        with your dev team, a coding bootcamp is exactly what you need. If you want
+        to launch your startup, you will learn to prototype your MVP, be autonomous
+        on small technical tasks, and manage your future dev team.
+      follow_path_description: Whether you want to communicate better with developers,
+        drastically change your career path or complete your education, a coding bootcamp
+        is probably the right choice.
+      follow_path_subtitle: Learn coding to meet your goals
+      follow_path_title: Follow your own path
+      follow_path_title_1: Complete your education
+      follow_path_title_2: Change your career
+      follow_path_title_3: Be autonomous in coding
+      follow_path_title_html: Reach your own <i class="highlighted highlighted-red">goals</i>
+      follow_path_title_mobile_html: Follow your own <i class="highlighted highlighted-red">path</i>.
+      image_alt_1: Coding Bootcamp
+      image_alt_2: Coding Bootcamp
+      image_alt_3: Coding Bootcamp
+      image_alt_4: Coding Bootcamp
+      paragraph_1_html: Le Wagon is a coding school based out of %{city_count} cities
+        in 20 countries. We bring coding skills to creative people who aim to create
+        their own startup, or add a technical know-how to their skillset.
+      paragraph_2_html: Our coding bootcamp teaches you all the web stack, from the
+        database to the browser. You will learn the core concepts of object-oriented
+        programming, and structure your software following design patterns like MVC.
+        In addition to mastering back-end programming languages (Ruby, SQL), you will
+        develop your front-end skills using recent techniques like flexbox, CSS grid
+        and learn ES6, the latest version of JavaScript.
+      paragraph_3_html: 'We strongly believe that there is a good way of building
+        web products. During our bootcamp, we teach you how successful startups work:
+        design your project''s wireframe & mockup, test your UX with a prototype,
+        split your user stories across your team and collaborate with branch and pull
+        requests with git and Github.'
+      paragraph_4_html: We also teach you how to learn, and what tools to use to do
+        so (Heroku, Stripe, MailChimp, Cloudinary, Algolia…) You learn how to implement
+        all these services to be more efficient when you launch your product.
+      paragraph_5_html: At the end of the bootcamp, you will be able to build a web
+        product from scratch, design a relational database and build queries with
+        SQL, integrate a 3rd service using an API or scrape HTML data, and be able
+        to learn a new programming language very quickly, which is extremely important
+        in the fast-paced environment of web development.
+      pros_content_1: Since 2013, we have constantly been improving our curriculum
+        and tools to match our students' needs, getting rid of every friction in the
+        process of learning to code. Our in-house trained teachers adapt to every
+        student's pace and level, making sure that nobody's left behind. As a result,
+        Le Wagon has been featured as n°1 world coding bootcamp on ranking websites
+        for several years
+      pros_content_2: After the bootcamp, a new life starts. Our alumni keep a lifetime
+        access to our online learning platform, with up-to-date videos and tutorials
+        about the latest tools and best practices of software development. But most
+        importantly, they belong to a community and network of people who help each
+        other, using our internal chat and alumni database to share tips and opportunities.
+      pros_content_3: Le Wagon is a product-driven bootcamp. During the course, our
+        students learn how to build robust and beautiful web applications by themselves,
+        from the back-end all the way to the front-end. But they also learn to collaborate
+        within a team of developers and adopt the technical workflow followed by most
+        successful startups. Le Wagon teaches you how to create a product, but it
+        also teaches you how to think and solve problems like a developer.
+      pros_title_1: Committed to excellence
+      pros_title_2: An international community
+      pros_title_3: A product-driven bootcamp
+      quote: '"Since 2013, we have constantly been improving our curriculum and tools
+        to match our students' needs, getting rid of every friction in the process
+        of learning to code."'
+      sub_title: Learn coding in a few weeks
+      title_html: 'An <i class="highlighted highlighted-red">immersive</i> coding
+        bootcamp
+
+'
+    datatron:
+      alt: Students coding at Le Wagon
+      description_html: During our 9-week (full-time) or 24-week (part-time) coding
+        bootcamp, learn the most in-demand skills with motivated students, passionate
+        teachers and a hands-on curriculum teaching you how to build software and
+        solve problems.
+      item_1_cta: Discover our program
+      item_1_description: Le Wagon has been ranked as the best coding school in the
+        world for the last 3 years.
+      item_1_description_html: 'We are focused on our students'' experience: our bootcamps
+        have the best student reviews and Net Promoter Score (NPS) of all coding bootcamps. '
+      item_1_link: What our students say
+      item_1_title: Coding Bootcamp
+      item_1_title_html: '4.99/5 <i>average review</i>
+
+'
+      item_2_cta: Meet our graduates
+      item_2_description: We have bootcamps running in %{city_count} cities around
+        the world, creating an incredible alumni network.
+      item_2_description_html: Le Wagon is a strong community of developers, designers,
+        entrepreneurs and tech talent, creating unique opportunities for our alumni
+        worldwide.
+      item_2_link: Meet our graduates
+      item_2_title: Amazing Graduates
+      item_2_title_html: "%{stat} <i>graduates</i>\n"
+      item_3_cta: See some student projects
+      item_3_description: We teach our students to turn their ideas into reality.
+        Come and build your  business with us!
+      item_3_description_html: 'You can join our coding bootcamps everywhere: in Europe,
+        Asia, Latin America, Australia & Canada, you will learn the same skills and
+        live a unique experience.
+
+'
+      item_3_link: See our campuses
+      item_3_title: Web Apps Developed
+      item_3_title_html: "%{city_count} <i>campuses</i>\n"
+      item_4_description_html: We teach our students how to build great apps. Our
+        alumni have launched successful startups, some of them raising up to $10M
+        or even being acquired by Apple.
+      item_4_link: Discover our courses
+      item_4_title_html: '100+ <i>startups created</i>
+
+'
+      reviews: "%{review_count} reviews"
+      reviews_html: <abbr itemprop="votes">%{review_count}</abbr> reviews
+      title: Join the best coding school
+      title_html: A <i class="highlighted highlighted-red">life-changing</i> experience
+    discover_courses:
+      title_html: Discover our <i class="highlighted highlighted-red">bootcamps</i>
+    graduate_stories_slider:
+      alumus_company_desktop_html: 'at %{company}
+
+'
+      alumus_company_html: "<br>at <strong>%{company}</strong>\n"
+      alumus_job_title_html: "<strong>%{job_title}</strong>\n"
+      cta: Discover our graduates stories
+      description: Our students come from all walks of life to become developers,
+        entrepreneurs, product managers and freelancers.
+      title_html: <i class="highlighted highlighted-purple">Meet</i> our graduates
+    header:
+      alt: Le Wagon is the best coding bootcamp in the world.
+      catchline_html: 'Change your life, learn to <i class="highlighted highlighted-red">code</i>.
+
+'
+      content: Le Wagon is an intensive 9-week coding bootcamp that teaches you how
+        to code great tech products.
+      content_html: Through immersive coding bootcamps, Le Wagon teaches you the skills
+        and entrepreneurial mindset you need to thrive - now and in the future.
+      discover_us: Discover our program
+      video: Discover Le Wagon
+    hired_alumni_testiminials:
+      alumnus_job_title: now %{job_title} at
+    page_description: Through immersive coding bootcamps, Le Wagon teaches you the
+      skills and entrepreneurial mindset you need to thrive - now and in the future.
+    page_title: Coding Bootcamp Le Wagon | Europe's Best Coding Bootcamp
+    posts:
+      cta: Read article
+      cta_blog: Discover more posts on our blog
+      description: Discover our latest global news! Alumni launching their startups
+        or joining the best companies, new programs and scholarships, insights from
+        our local teams... There is always something going on in our %{city_count}
+        cities.
+      title: What's new at Le Wagon?
+      title_html: What's <i class="highlighted highlighted-red">new</i> at Le Wagon?
+    stories:
+      description: 'Coming from all walks of life, our graduates have something in
+        common: they decided to learn to code to become autonomous and use their new
+        skills to pursue their dreams.'
+      picture_alt: "%{name}, alumnus of Le Wagon %{city}"
+      post_cta_article: Read %{alumnus}'s story
+      post_cta_video: Watch %{alumnus}'s story
+      title: Meet our graduates
+      title_html: Meet our coding bootcamp <i class="highlighted highlighted-red">grads</i>
+  json_seo:
+    home_description: Le Wagon helps you re-invent yourself, providing you with the
+      best coding bootcamps in web development and data science.
+    program_name:
+      default: Web Development course
+      full_time: Web development course in %{city} - Full-time
+      part_time: Web development course in %{city} - Part-time
+  locales:
+    de: German
+    en: English
+    english: English
+    es: Spanish
+    fr: French
+    french: French
+    it: Italian
+    ja: 日本語
+    portuguese: Portguese
+    pt-BR: Portuguese
+    spanish: Spanish
+    zh-CN: 中文
+  logo_alt: Go to Le Wagon homepage
+  menu:
+    accessibility:
+      city: Go to %{city} page
+    beginner_workshops: Beginner workshops
+    blog: Blog
+    bootcamp_prep: Bootcamp prep
+    campuses: Campuses
+    career: Career
+    career_services: Career Services
+    coming_soon: Coming soon
+    coming_soon_full_time: Full-time bootcamp (coming soon)
+    coming_soon_part_time: Part-time bootcamp (coming soon)
+    contact_us: Contact us
+    course: Course
+    courses: Courses
+    data_science: Data Science
+    data_science_program: Data Science
+    enterprise: Corporate Training
+    events: Events
+    faq: FAQ
+    full_time_program: Full-time course (9 weeks)
+    graduates: Graduates
+    home: Home
+    media: Media
+    mobile_data_full_time_program: Data Science - Full-time
+    mobile_data_part_time_program: Data Science - Part-time
+    mobile_web_full_time_program: Web Development - Full-time
+    mobile_web_part_time_program: Web Development - Part-time
+    outcomes: Outcomes
+    partners: Partners
+    part_time_program: Part-time course (24 weeks)
+    policy: Privacy Policy
+    program: Program
+    programs: Programs
+    team: Our team
+    wagon_talks: Wagon Talks
+    webinars: Webinars
+    web_development: Web Development
+    web_development_program: Web Development
+  menu_dropdown:
+    list: See all campuses
+    map: View the map
+  menu_executive:
+    clients: Our clients
+    tech_courses: Our tech courses
+    use_cases: Use cases
+  meta:
+    webinars:
+      description: Start your journey into coding with our free webinars. From HTML
+        & CSS to Data Analytics with Python, from JavaScript to SQL, we've got you
+        covered!
+      title: Webinars | Le Wagon
+  mobile:
+    campuses: Campuses
+    placeholder: Find a campus
+  modal:
+    city_presence_message: You must choose a city.
+  newsletter:
+    choose_city: Find a campus
+    submit: Subscribe
+    tagline: Stay up to date on Le Wagon events and free workshops surrounding tech,
+      startups and innovation
+    thanks_message: Thank you for your subscription!
+    title: Subscribe for more!
+  press:
+    articles:
+      they_speak: They speak about us
+      they_speak_html: 'They speak <i class="highlighted highlighted-yellow">about
+        us</i>
+
+'
+    figures:
+      data_content_1: Coding bootcamp worldwide
+      data_content_2: Amazing Graduates
+      data_content_3: Web Apps Developed
+      data_content_4: Official launch
+      data_content_5: Campuses
+      data_content_6: Countries
+      title: Le Wagon in figures
+      title_html: 'Le Wagon <i class="highlighted highlighted-blue">in figures</i>
+
+'
+    founders:
+      founder_bio_1: After an engineering school, Boris worked for 3 years in financial
+        markets before getting bored. He quit to live his real passion, web-development
+        and product design. Co-founding Le Wagon as CEO, he has been teaching frontend,
+        web-design and Rails for 4 years and also gives frequent talks on technical
+        entrepreneurship in major business & engineering schools.
+      founder_bio_2: After a few years working as a lawyer, Romain created Le Wagon
+        with Boris in 2013. He manages all operations globally.
+      founder_bio_3: Sébastien is a software engineer with more than 8 years of experience.
+        He worked at Google & VirtuOz, and now teaches all you need to know about
+        web programming and the technical workflow used in a startup.
+      founder_name_1: Boris Paillard
+      founder_name_2: Romain Paillard
+      founder_name_3: Sébastien Saunier
+      founder_title_1: Co-founder & CEO
+      founder_title_2: Co-founder & COO
+      founder_title_3: Co-founder & CTO
+      title: Co-founding team
+      title_html: 'Co-founding <i class="highlighted highlighted-green">team</i>
+
+'
+    header:
+      assets: Download assets
+      contact: Your contact
+      content_html: |-
+        <p>Le Wagon is a Coding school teaching Web Development and Data Science through immersive bootcamps. Our cutting-edge curriculum and world-class teachers give students all the skills and tools needed to kick-start their tech career, land a job as Engineers or Product Managers, become freelancers or launch their own startup.</p>
+        <p>Created in 2013 by Boris Paillard, Romain Paillard and Sébastien Saunier, Le Wagon is now a team of 100+ people worldwide, working to make an impact on the future of education. With a huge network of corporate partners and a strong alumni community, Le Wagon has become a key stakeholder in local tech communities worldwide.</p>
+      logo: Logo
+      pictures: Pictures
+      subtitle: 'Change your life: learn to code'
+      title: Media room
+      title_html: '<i class="highlighted highlighted-red">Media</i> room
+
+'
+  products:
+    card:
+      built_by_html: Built by <strong>%{alumnus_first_name} %{alumnus_last_name}</strong>
+        in %{city}
+      next: 'Next:'
+    catchline: We've helped our %{alumni_count}+ graduates build more than %{product_count}+
+      products. Being a great developer is not just about code but also about mastering
+      all the skills involved in building a tech product.
+    cta: Discover their products
+    main_title: See what our graduates have built
+    main_title_html: <i class="highlighted highlighted-red">Built</i> by our students
+    nav:
+      next_card_html: "<strong>%{product_name}</strong><br>built by %{alumnus_first_name}
+        %{alumnus_last_name}"
+    page_description: We've helped our %{alumni_count}+ graduates build more than
+      %{product_count}+ products. Being a great developer is not just about code but
+      also about mastering all the skills involved in building a tech product.
+    page_title: See what our graduates have built
+  program:
+    affix:
+      affix_city_fulltime_title: Web Development Course in %{city}
+      affix_fulltime_title: Web Development Course
+      affix_title: Course details
+      career_services: Career Services
+      community: Community
+      cta: Apply now
+      curriculum: Curriculum
+      faq: FAQ
+      financing: Financing options
+      hiring: Hiring partners
+      instructors: Teachers
+      overview: Overview
+      portfolio: Portfolio
+      taste_of: A unique experience
+      tooling: Community & tools
+      typical_day: Typical day
+      typical_week: Typical week
+      upcoming_batches: Upcoming batches
+    catchline: Learn to code in 9 intensive weeks.
+    catchline_full_time: In 9 intensive weeks, learn all the skills of a Software
+      Developer, code your own web applications from scratch and change your career.
+    catchline_part_time: In 24 weeks, part-time, learn all the skills of a Software
+      Developer and code your own web applications to upskill in your current job
+      or change your career.
+    coming_soon_placeholder: This course will be launched soon. Subscribe to our newsletter
+      and be among the first to be notified.
+    main_title: Web Development course
+    main_title_city: Web Development course in
+    main_title_city_part_time: Web Development part-time course in
+    main_title_part_time: Web Development part-time course
+    no_batch: We don't have any %{program} open right now. Subscribe to our newsletter
+      and we will keep you updated when it's available!
+    page_description: Learn to code in 9 intensive weeks.
+    page_title: Web Development Course - Le Wagon
+    part_time_catchline: Learn to code in 24 weeks at your own pace, during weekly
+      evenings & Saturdays.
+    part_time_main_title: Web Development Course Part-time - Le Wagon
+    part_time_opening_soon: Next batch date will be announced soon
+    part_time_page_title: Part-time bootcamp - Le Wagon
+    program_full_time: Full-time (9 weeks)
+    program_part_time: Part-time (24 weeks)
+    section_batches:
+      applications_closed: Applications closed
+      check_full_time: Discover our full-time course
+      check_part_time: Discover our part-time course!
+      next_batch_date: "%{batch_start_time} - %{batch_end_time}"
+      next_batch_infos: "%{week_starts_at} to %{week_ends_at}, %{day_starts_at} -
+        %{day_ends_at}"
+      next_batch_language_and_price: Course in %{next_batch_language} (%{next_batch_price})
+      next_batch_language_html: 'Course in <strong>%{next_batch_language}</strong>
+
+'
+      next_batch_status_html: "<i>%{batch_status}</i> (%{batch_price})\n"
+      no_batch: We don't have any batch scheduled in %{city} right now.
+      no_full_time: We don't have any full-time course scheduled in %{city} right
+        now.
+      no_part_time: We don't have any part-time batch scheduled in %{city} right now.
+      title: Upcoming batches
+      try_other_city: Try another campus!
+    section_career_services:
+      career_week_content_1: 'Access a complete guide to kick-start your tech career
+        after the course: boost your portfolio, prepare for technical interviews,
+        leverage on our %{alumni_count} alumni community.'
+      career_week_content_2: Attend our job fairs and networking events, meet with
+        the best tech companies and receive offers by recruiters looking for tech
+        talent.
+      career_week_content_3: 'Our web development course''s alumni love to share their
+        experiences with fresh graduates: they explain how they found a job, launched
+        their startup or freelance career.'
+      career_week_content_4: Our local teams know their alumni and hiring partners,
+        what they are up to and what they are looking for. They introduce you to the
+        right people depending on your goal.
+      career_week_title: Career Week Program
+      career_week_title_1: Career Playbook
+      career_week_title_2: Career Events
+      career_week_title_3: Alumni Coaching Sessions
+      career_week_title_4: Career Intros
+      content: Once the web development course ends, you benefit from our career services.
+        We help you prepare for tech interviews, meet the best recruiters and connect
+        with relevant alumni.
+      image_alt: Our web development course alumni get hired by the best companies
+      title: Get your dream job
+      title_html: 'Find a <i class="highlighted highlighted-blue">job</i> in the best
+        tech companies
+
+'
+    section_community:
+      content_html: |
+        <ul class="dotted-list">
+          <li>Be part of exclusive community channels</li>
+          <li>Get coding tips and help from our teachers</li>
+          <li>Browse jobs and co-founder opportunities</li>
+          <li>Get lifetime access to our online education platform</li>
+        </ul>
+      title_html: Lifetime <i class="highlighted highlighted-red">community</i> membership.
+    section_curriculum:
+      catchline: Our web development course is designed to make you learn to code
+        step by step, until you can build your own web applications from scratch.
+      container_1:
+        content: 'Our Web Development Course is very intense. To save time and nail
+          it from the beginning, our students must complete some PrepWork on a custom
+          platform before starting the bootcamp. This work takes around 60 hours and
+          gives them basic knowledge of:'
+        content_list_html: |
+          <ul class="dotted-list">
+            <li>Web 101 - how the web works</li>
+            <li>Terminal - basic commands</li>
+            <li>Git - basic commands</li>
+            <li>HTML / CSS - foundations</li>
+            <li>JavaScript - foundations</li>
+            <li>Startup mindset - tech workflow</li>
+          </ul>
+        title: Prepwork
+      container_2:
+        nav_panel_1: 1. Setup
+        nav_panel_2: 2. Programming basics
+        nav_panel_3: 3. Software architecture
+        nav_panel_4: 4. Database & ORM
+        panel_1:
+          content: Install professional developer tools to prepare you for the next
+            9 weeks
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Command line basics</li>
+              <li>Create, update, delete files and folders from command line</li>
+              <li>Navigate in a file system</li>
+              <li>Install Ruby and a Version Management tool</li>
+              <li>Key developer packages</li>
+              <li>Version control with git</li>
+              <li>Commit and push on Github</li>
+            </ul>
+          part_time_content: Install professional developer tools to prepare you for
+            the next 24 weeks
+          title: 1. Setup
+        panel_2:
+          content: Write algorithms manipulating variables, loops, conditions and
+            data structures like Array and Hash. Parse and store data from standard
+            files (CSV, JSON, XML, HTML).
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Core concepts of programming</li>
+              <li>Ruby doc for built-in classes</li>
+              <li>Algorithms & data structures (Array, Hash)</li>
+              <li>Text pattern detection with Regular Expressions</li>
+              <li>Parse & store data in standard files (JSON,CSV, XML)</li>
+              <li>Web scraping with Nokogiri</li>
+              <li>Request and parse data from RESTful JSON APIs</li>
+            </ul>
+          title: 2. Programming basics
+        panel_3:
+          content: Structure your code with different classes following Object-Oriented
+            principles. As with architects designing a building, developers must learn
+            to respect patterns when designing software.
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Core concepts of Object-Oriented programming</li>
+              <li>Classes, objects and instance variables</li>
+              <li>Instance and class methods, Inheritance</li>
+              <li>Public vs. Private Interfaces</li>
+              <li>Routing user requests</li>
+              <li>Simulating a database with CSV files</li>
+              <li>In-depth understanding of MVC (Model View Controller)</li>
+            </ul>
+          title: 3. Software architecture
+        panel_4:
+          content: Software needs to store information in a database. Without a database,
+            Facebook would not have a way of storing users' data. Learn to design
+            a relational database and build structured queries to your database using
+            SQL.
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Database Schema Design & SQL</li>
+              <li>One-to-many, many-to-many relations and join tables</li>
+              <li>CRUD in SQL (Create, Read, Update, Delete)</li>
+              <li>Advanced JOIN queries</li>
+              <li>Connect your DB to ruby with Active Record ORM</li>
+              <li>Active Record Basics: migrations & naming convention</li>
+              <li>Active Record Advanced: associations & validation</li>
+            </ul>
+          title: 4. Database & ORM
+      container_3:
+        nav_panel_1: 1. Building web interfaces
+        nav_panel_2: 2. ES6 and modern Javascript
+        nav_panel_3: 3. Ruby on Rails
+        nav_panel_4: 4. Building Airbnb
+        panel_1:
+          content: Elaborate your UI with atomic design and code beautiful components
+            & layouts by applying the latest CSS techniques.
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Product Design, UX & UI principles</li>
+              <li>HTML (tags, id, classes, attributes)</li>
+              <li>CSS (selectors, properties, stylesheet organization)</li>
+              <li>Atomic design principles</li>
+              <li>Web-design tips for components & layouts</li>
+              <li>CSS techniques with flexbox & CSS grid</li>
+              <li>CSS media queries for Adaptive Design</li>
+              <li>Bootstrap basics & Responsive Grid System</li>
+            </ul>
+          title: 1. Building web interfaces
+        panel_2:
+          content: Learn ES6 - your second programming language after ruby - to add
+            dynamic behaviour to your website, or update pages without reloading thanks
+            to AJAX.
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>JavaScript fundamentals</li>
+              <li>ES6 and differences with ES5</li>
+              <li>JavaScript Tooling (Babel, Webpack, yarn)</li>
+              <li>DOM Events & AJAX</li>
+            </ul>
+          title: 2. ES6, the latest JavaScript version
+        panel_3:
+          content: Wrap it all together by coding your first Ruby on Rails applications.
+            Deploy your applications in production & start coding "the Rails way".
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>MVC in Rails: Routing, Controllers, Params & Views</li>
+              <li>Models & CRUD in Rails</li>
+              <li>Adding gems to your project</li>
+              <li>ERB: Layouts, Partials and Helpers</li>
+              <li>Nested Resources and Namespaces</li>
+              <li>Refactoring an app with Services</li>
+              <li>Build an API with Rails</li>
+            </ul>
+          title: 3. Wrapping everything together with Rails
+        panel_4:
+          content: Code a clone of Airbnb from scratch in 5 days. You will work in
+            teams to learn to collaborate on Github using pull requests and deploy
+            your apps on Heroku, using the same workflow as successful startups.
+          content_list_html: |
+            <ul class="dotted-list">
+              <li>Collaborating on a Rails app with Git and Github</li>
+              <li>Testing in Rails with Rspec</li>
+              <li>Authentication with Devise</li>
+              <li>Omniauth and login with 3rd party services (FB, Linkedin, Spotify...)</li>
+              <li>User authorization</li>
+              <li>Search in Rails</li>
+              <li>Payment, Mailing, Geocoding and Maps</li>
+              <li>Background Jobs with Sidekiq</li>
+              <li>Image upload with Cloudinary</li>
+              <li>Continuous Deployment on Heroku</li>
+            </ul>
+          part_time_content: Code a clone of Airbnb from scratch in 45 hours. You
+            will work in teams to learn to collaborate on Github using pull requests
+            and deploy your apps on Heroku, using the same workflow as successful
+            startups.
+          title: 4. Building Airbnb team
+      container_4:
+        content: 'The final projects are the culmination of the bootcamp. Students
+          work together to put everything they have learnt (and more!) into practice:
+          inventing, pitching, designing, coding and deploying an original project
+          in teams of 3 or 4 over a two week period.'
+        content_list_html: |
+          <ul class="dotted-list">
+            <li>User need, user goal and unique value proposition</li>
+            <li>Prototyping on Figma to test UX</li>
+            <li>Splitting tasks into user stories</li>
+            <li>Coding an original web app from scratch</li>
+            <li>Build it all! from back-end to user interface</li>
+            <li>Deploy on a production environment</li>
+            <li>Pitch your web-app at a public graduation "demo day"</li>
+          </ul>
+        part_time_content: 'The final projects are the culmination of the bootcamp.
+          Students work together to put everything they have learnt (and more!) into
+          practice: inventing, pitching, designing, coding and deploying an original
+          project in teams of 3 or 4 over a 90 hours period.'
+        title: Final Projects
+      curriculum_main_nav_1_html: Prepwork<i>~60 hours</i>
+      curriculum_main_nav_2_html: Foundations<i>3.5 weeks</i>
+      curriculum_main_nav_3_html: Web Development<i>3.5 weeks</i>
+      curriculum_main_nav_4_html: Projects<i>2 weeks</i>
+      full_time_curriculum_nav_1_html: Prepwork<i>~60 hours</i>
+      full_time_curriculum_nav_2_html: Foundations<i>3.5 weeks</i>
+      full_time_curriculum_nav_3_html: Web Development<i>3.5 weeks</i>
+      full_time_curriculum_nav_4_html: Projects<i>2 weeks</i>
+      full_time_curriculum_nav_5_html: Post-bootcamp<i>lifelong</i>
+      part_time_catchline: 450h to learn to code from A to Z.
+      part_time_curriculum_main_nav_1_html: Prepwork<i>~60 hours</i>
+      part_time_curriculum_main_nav_2_html: Foundations<i>160 hours</i>
+      part_time_curriculum_main_nav_3_html: Web Development<i>160 hours</i>
+      part_time_curriculum_main_nav_4_html: Projects<i>90 hours</i>
+      part_time_curriculum_nav_1_html: Prepwork<i>~60 hours</i>
+      part_time_curriculum_nav_2_html: Foundations<i>140 hours</i>
+      part_time_curriculum_nav_3_html: Web Development<i>160 hours</i>
+      part_time_curriculum_nav_4_html: Projects<i>90 hours</i>
+      part_time_curriculum_nav_5_html: Lifelong learning<i>1+ week</i>
+      title: Become a software engineer
+      title_html: Our course <i class="highlighted highlighted-purple">curriculum</i>
+    section_faq:
+      catchline: 'If you got here, it means that you have questions about Le Wagon:
+        how to apply, who can join, what you'll learn… Good! We have the answers.'
+      faq_cta: Get more answers to your questions here
+      title: Any questions about our program in %{city}
+      title_html: Any questions about our program in <i class="highlighted highlighted-blue">%{city}</i>
+    section_financing:
+      content: Find out if you are eligible for special offers in %{city}.
+      title: Find the right financing option for you
+      title_html: Find the right <i class="highlighted highlighted-green">financing</i>
+        option for you
+    section_format:
+      catchline_html: Learn to code in 24 weeks with a tailor-made program<br>adapted
+        to your busy schedule.
+      day_description_1: Hands-on pair programming session with our teachers' support
+      day_description_2: Hands-on pair programming session with our teachers' support
+      day_description_3: Fundamentals reboot and 1:1 mentoring session
+      day_name_1: Tuesday
+      day_name_2: Thursday
+      day_name_3: Saturday
+      day_time_1: 6.30-9.30pm
+      day_time_2: 6.30-9.30pm
+      day_time_3: 10am-5pm
+      duration_html: "<span>24</span>weeks"
+      part_time_calendar:
+        at_home: Homework
+        at_home_work: Watch the lecture to prepare for next session.
+        day_ends_at: 5pm
+        day_starts_at: 10am
+        evening_ends_at: 10pm
+        evening_starts_at: 7pm
+        on_campus: On campus
+        on_campus_full_day_work_html: Practice all day on challenges and projects.<br><br>Consolidate
+          what you've learnt through live-code sessions with your teachers.
+        on_campus_work: Pair program with your classmates on coding challenges with
+          the help of our teachers.
+      title: Our part-time format
+      title_html: Our <i class="highlighted highlighted-green">part-time</i> format
+    section_hiring_partners:
+      content: The best companies partner with Le Wagon and hire our alumni as Web
+        Developers, Product Managers, Growth Hackers or Product Designers.
+      image_alt: Our web development course's hiring partners
+      title: Where our alumni work
+      title_html: They hire our web development <i class="highlighted highlighted-green">grads</i>
+    section_instructors:
+      content: Since day one, we've taken teaching seriously. Great teachers inspire
+        us to connect to topics on a profound level. Experience as a developer alone
+        doesn't necessarily make one an effective teacher — that's why we're passionate
+        about finding not only great engineers, but deeply committed, experienced
+        teachers.
+      more_about: more about %{instructor}
+      title: Passionate teachers
+      title_html: Passionate <i class="highlighted highlighted-red">teachers</i>
+    section_introduction:
+      content: Our web development course is an immersive experience that takes you
+        from beginner to junior software developer in 9 weeks. At the end of the course,
+        you will know how to build a robust and user-friendly app that answers your
+        users' needs, and to follow the right workflow to collaborate with other developers,
+        designers and product managers.
+      list_item_1_html: "<strong>%{alumni_count}+</strong> graduates\n"
+      list_item_2_html: "<strong>%{product_count}+</strong> products built\n"
+      list_item_3_html: "<strong>%{startup_count}+</strong> startups launched\n"
+      part_time_content: Our web development course, initially developed as an immersive
+        9-week bootcamp, can also be followed part-time in 24 weeks, studying some
+        weekday evenings and Saturdays. At the end of the course, you will know how
+        to build a robust, user-friendly app that matches users' needs and objectives,
+        and to use the right workflow to work in collaboration with other developers.
+      preview_title_html: Learn from the best<i>Boris Paillard, Le Wagon CEO</i>
+      title: Learn from the best.
+      title_html: Live a unique <i class="highlighted highlighted-red">experience.</i>
+    section_portfolio:
+      content: During our web development course, you learn the essentials of programming
+        while building your own web applications. As a result, you end up the course
+        with a rich Github portfolio containing at least two fully-functional web
+        applications - an Airbnb-like marketplace and your own final project.
+      title: Build your tech portfolio
+      title_html: Build your developer <i class="highlighted highlighted-blue">portfolio</i>.
+    section_products:
+      cta: Discover %{product}
+    section_testimonials:
+      alumnus_company: at %{company}
+      alumnus_company_html: at <strong>%{company}</strong>
+      catchline: A few words from our graduates.
+      category:
+        community: Our community
+        curriculum: Our curriculum
+        platform: Our platform
+        teachers: Our teachers
+      title: What they love about our Web Development Course
+      title_html: What they <i class="highlighted highlighted-green">love</i> about
+        our Web Development Course.
+    section_tooling:
+      content: Our web development course is just the beginning of the journey. Once
+        you graduate, you belong to a global community and have access to our online
+        platform to keep learning and growing.
+      title: Community and tools for life
+      title_html: Community and tools <i class="highlighted highlighted-red">for life</i>
+      tool_item_content_1: Get tips and advice from professional developers, access
+        exclusive job and freelance opportunities, find support for your project launch.
+      tool_item_content_2: Access our online education platform at any time after
+        the web development course, with lectures, screencasts, flashcards and challenges.
+      tool_item_content_3: Benefit from advanced tutorials in software development
+        to push your computer science skills further and keep on learning and practicing
+        after the bootcamp.
+      tool_item_content_4: Receive unique job and freelance opportunities from Le
+        Wagon's alumni who work as developers, product managers and entrepreneurs
+        in successful tech companies all over the world.
+      tool_item_title_1: Slack communities
+      tool_item_title_2: Online platform
+      tool_item_title_3: Additional resources
+      tool_item_title_4: Global network
+    section_typical_day:
+      catchline: From morning lectures to evening talks, every day is action-packed.
+      step_1_content: Grab a coffee and start every morning with an engaging & interactive
+        lecture, before putting what you've learnt into practice.
+      step_1_picture_alt: Lectures
+      step_1_timing_html: Lectures<i>9:00AM - 10:30AM</i>
+      step_2_content: Pair up with your buddy for the day, and work on a series of
+        programming challenges with the help of our teaching staff.
+      step_2_picture_alt: Challenges
+      step_2_timing_html: Challenges<i>10:30AM - 4:30PM</i>
+      step_3_content: Learning to code is very intense, so it's important to take
+        a break and relax during our yoga classes.
+      step_3_picture_alt: Yoga
+      step_3_timing_html: Yoga<i>4:30PM - 5:30PM</i>
+      step_4_content: Review the day's challenges and get an overview of upcoming
+        lessons during live code sessions.
+      step_4_picture_alt: Live code
+      step_4_timing_html: Live code<i>5:30PM - 7:00PM</i>
+      step_5_content: Be inspired and get priceless advice from successful entrepreneurs
+        invited for exclusive talks.
+      step_5_picture_alt: Talks & Workshops
+      step_5_timing_html: Talks & Workshops<i>7:00PM - 8:30PM</i>
+      time_slot_1: Lectures
+      time_slot_2: Challenges
+      time_slot_3: Yoga
+      time_slot_4: Live-code
+      time_slot_5: Events
+      time_slot_evening: "<span>%{time_hour}:%{time_minutes}</span> pm"
+      time_slot_morning: "<span>%{time_hour}:%{time_minutes}</span> am"
+      time_slot_schedule_1: 9:00 am
+      time_slot_schedule_2: 10:30 am
+      time_slot_schedule_3: 4:30 pm
+      time_slot_schedule_4: 5:30 pm
+      time_slot_schedule_5: 7:00 pm
+      time_slot_schedule_6: 8:30 pm
+      title: A typical day at Le Wagon
+      title_html: A typical <i class="highlighted highlighted-red">day</i> at Le Wagon
+    section_typical_week:
+      catchline: Live a unique learning experience every week.
+      step_1_content: Meet your peers and teachers three times a week to work on coding
+        challenges. Learn to think and solve problems like a software developer.
+      step_1_picture_alt: On campus pair-programming sessions
+      step_1_timing_html: On campus pair-programming sessions
+      step_2_content: Watch lectures at your own pace on our online platform. Grasp
+        core concepts and prepare yourself for the next coding session. Consolidate
+        your knowledge on a daily basis playing our Flashcards.
+      step_2_picture_alt: Online lectures and flashcards
+      step_2_timing_html: Online lectures and flashcards
+      step_3_content: Every week, join us for events with entrepreneurs and hiring
+        partners. Create your own network within a thriving tech scene.
+      step_3_picture_alt: Hiring and networking Events
+      step_3_timing_html: Hiring and networking Events
+      title: A taste of our program
+      title_html: A <i class="highlighted highlighted-red">taste</i> of our program
+    video_title: Discover Le Wagon
+    video_title_data_html: 'Learn Data Science in 9 weeks<br>Check out what our alumni
+      have built in 2 weeks
+
+'
+    video_title_html: 'Le Wagon: a life-changing experience'
+  program_full_time:
+    lifelong_learning:
+      content_1: We help our students find a job by preparing them for technical interviews,
+        organising job fairs, startup office hours and coaching sessions with tech
+        recruiters and alumni. We have helped our %{alumni_count}+ graduates find
+        their dream job!
+      content_2: After the bootcamp, all our alumni get access to Le Wagon's one-week
+        online extension training in React.js and Redux. A very useful course for
+        our students who want to go deeper in front-end development or apply to front-end
+        developer jobs.
+      content_3: Our alumni keep a lifelong access to our online platform with 300+
+        challenges, 100+ hours of video lessons to re-watch any time after the bootcamp,
+        100+ live-codes and tutorials on real-life developer examples and 900+ flashcards
+        to rehearse core concepts.
+      content_4: Our %{alumni_count}+ alumni are chatting every day on Le Wagon's
+        Slack after the bootcamp, getting help from Le Wagon's 900+ teachers, sharing
+        tips, resources, code snippets, job offers and news from their products. An
+        extremely engaged and passionate tech community around the world.
+      title_1: Career Services
+      title_2: React.js Extension Course
+      title_3: Lifelong Access to our Online Platform
+      title_4: Slack & Community
+    prepwork:
+      content_html: |-
+        <p>The Web Development Course is very intense. To save time and nail it from the beginning, our students must complete the Prepwork on our custom-built platform before starting the bootcamp. This work takes around 60h and gives our students a basic knowledge of:</ul>
+        <ul class="dotted-list">
+          <li>Web 101, how the web works</li>
+          <li>Terminal basic commands</li>
+          <li>Git basic commands</li>
+          <li>HTML / CSS foundations</li>
+          <li>JavaScript foundations</li>
+          <li>Tech workflows and tools in a startup</li>
+        <ul>
+      title: Prepare for the bootcamp
+    projects:
+      content_html: |
+        <p>Projects Phase is the ultimate experience of the course: invent, pitch, design, code and deploy an original project in teams of 3 or 4 people during the two final weeks. You will have to go through all the process from the idea to the live app in production on a real domain name, ready to be tested on the market!</ul>
+        <ul class="dotted-list">
+          <li>Define the Product's target users and unique value proposition</li>
+          <li>Build an interactive prototype with Figma to validate the UX</li>
+          <li>Split the work in your teams by defining and assigning user stories</li>
+          <li>Code the web application from scratch: from the back-end to the user interface</li>
+          <li>Deploy your app on a production environment</li>
+          <li>Pitch your product during the Demo Day!</li>
+        <ul>
+      title: Turn an idea into a product in 2 weeks
+    software_foundations:
+      content_1: Work with the right developer tools and workflow. Learn the basics
+        of the command line, use a code text editor and install Ruby with a version
+        management tool. Get familiar with most useful developer packages and learn
+        how to version your code with git and push it on Github.
+      content_2: Write programs manipulating variables, loops, conditions and data
+        structures (Array and Hash). Detect text patterns with Regular Expressions
+        and start parsing data from structured files (CSV, JSON, XML, HTML) fetched
+        using web-scraping or by building requests to JSON APIs.
+      content_3: Structure your software following Object-Oriented principles. Learn
+        the Model-View-Controller pattern in-depth (most common application design
+        pattern) by coding several MVC softwares from scratch. You will have to code
+        everything on your own, even simulating your database storing data in CSV
+        files.
+      content_4: Learn to design a relational database schema and to build structured
+        queries to your database with SQL. Build simple CRUD queries (Create, Read,
+        Update, Delete) or advanced JOIN queries. Learn to connect your database to
+        your ruby software with an ORM (Object Relational Mapping) called Active Record.
+      title_1: Developer tools & workflow
+      title_2: Programming Basics in Ruby
+      title_3: Software Architecture
+      title_4: Relational Database, SQL & ORM
+    web_development:
+      content_1: Build your web pages following atomic design principles and code
+        your own UI kit of web components & layouts by applying the latest CSS techniques.
+        Build pages with an adaptive design thanks to media queries and learn to quickly
+        prototype a web app with Bootstrap 4.0 and its responsive grid system.
+      content_2: Learn ES6, your second programming language after ruby, to add dynamic
+        behaviors to your website or update pages without reloading thanks to AJAX.
+        Understand JavaScript fundamental concepts and learn to use all the necessary
+        JS web tools like Babel, Webpack or yarn.
+      content_3: Wrap it all together by coding your first Ruby on Rails applications.
+        Deploy your applications in production & start coding "the Rails way". Go
+        deep into Rails discovering advanced concepts like nested resources, namespaces,
+        or how to refactor an app with services or to build an API with Rails.
+      content_4: Code a clone of Airbnb from scratch in 5 days. You will work in teams
+        to learn to collaborate on Github using pull requests and deploy your apps
+        on Heroku, using the same workflow as successful startups. Implement advanced
+        features (payment, image upload, search, geocoding, background jobs, etc…)
+        and learn to cover your code with tests.
+      title_1: Front-end Web Development
+      title_2: ES6
+      title_3: Ruby on Rails
+      title_4: Cloning Airbnb in teams
+  referrer_service:
+    content: 'Le Wagon is the #1 ranked coding bootcamp worldwide. We're trusted by
+      hundreds of students in %{city_count} campuses all over the world to give people
+      the best quality tech education.'
+    coursereport_cta: Read %{coursereport_reviews_count}+ reviews
+    coursereport_description: 'Le Wagon is ranked #1 on Course Report according to
+      student reviews.'
+    coursereport_title: N°1 coding bootcamp on Coursereport
+    coursereport_title_html: N°1 Coding Bootcamp<br>on Coursereport
+    press: They talk about us
+    reviews: What they think about our coding bootcamps
+    switchup_cta: Read %{switchup_reviews_count}+ reviews
+    switchup_description: 'Le Wagon is ranked #1 on Switchup according to student
+      reviews.'
+    switchup_title: N°1 coding bootcamp on Switchup
+    switchup_title_html: N°1 Coding Bootcamp<br>on Switchup
+    title: The No.1 coding bootcamp
+    title_html: 'The <i class="highlighted highlighted-yellow">No.1</i> coding bootcamp
+
+'
+  remote_bootcamps:
+    banner_html: 'We are now running hybrid classes: learn to code from home or on
+      campus. <strong>Learn more</strong> >'
+    city_callout_html: Some of our upcoming courses in %{city} can be followed <strong>remotely</strong>.
+      After you complete your application, the admission manager will <strong>be in
+      touch shortly</strong> to give you all the necessary information.
+    city_callout_without_contact_name_html: Our students are temporarily following
+      our <strong>courses remotely</strong> in %{city}. After you complete your application,
+      the admission manager will <strong>be in touch shortly</strong> to give you
+      all the necessary information.
+    global_apply_callout_html: Some of our upcoming courses can be followed <strong>remotely</strong>.
+      After you complete your application, the admission manager will <strong>be in
+      touch shortly</strong> to give you all the necessary information.
+    remote_label: remote available
+  simple_form:
+    hints:
+      prospect:
+        index:
+          city: Campus
+  site_name: Coding Bootcamp Le Wagon | Europe's Best Coding Bootcamp
+  switchup:
+    city_content_html: '<p>For the fourth year in a row, Le Wagon is <a href="https://www.switchup.org/rankings/best-coding-bootcamps"
+      target="_blank">ranked #1 coding bootcamp worldwide on Switchup</a> according
+      to student reviews! We feel blessed and honoured to have enabled them - and
+      to keep enabling our students - to become autonomous in coding, upskill in their
+      career or launch their own startups.</p>
+
+'
+    city_logo_alt: "#1 ranked coding bootcamp in %{city} on Switchup"
+    home_content_html: |-
+      <p>For the fourth year in a row, Le Wagon is the <a href="https://www.switchup.org/rankings/best-coding-bootcamps" target="_blank">#1 ranked coding bootcamp worldwide on Switchup</a> according to student reviews! Whilst this ranking makes us proud - it's always nice to hear that you're the best at what you do - above all it makes us happy. Behind these reviews are thousands of people around the world who have had a life-changing experience that has opened new doors for them. We feel blessed and honoured to have enabled them - and to keep enabling our students - to become autonomous in coding, upskill or change their career, or launch their own startups.</p>
+      <p>Also, these %{switchup_review_count} reviews are extremely important for us to make sure we're always meeting the same level of excellence. Having such positive and enthusiastic reviews about our bootcamps is the ultimate proof that we provide the best tech education for all our students, in the %{city_count} cities we run our coding bootcamps in.</p>
+    home_logo_alt: 'Le Wagon is the #1 ranked coding bootcamp on Switchup'
+    home_title_html: <i class="highlighted highlighted-red">#1 ranked</i> coding bootcamp
+      on Switchup
+  team:
+    catchline: Le Wagon is a global community with campuses all around the world.
+      Each city has its own ecosystem and our team is here to make you feel at home!
+    filters:
+      default_city: Paris
+      oops: Oops, we don't have any team members matching your current request.
+      oops_cta: Try something else!
+    main_title_html: Meet our team
+    page_description: Le Wagon is a global community with campuses all around the
+      world. Each city has its own ecosystem and our team is here to make you feel
+      at home!
+    page_title: Meet our team
+  time:
+    formats:
+      batch_time: "%I:%M %p"
+      event_card_schedule: "%b %d, %Y - %I:%M %p"
+      event_date_modal: "%B %e, %Y"
+      event_day_modal: "%e"
+      event_month_modal: "%b"
+      event_time_modal: "%I:%M %p"
+      full_date: "%A %d, %b %Y"
+      full_time: "%I:%M%p"
+      part_time_agenda: "%I:%M %p"
+  video:
+    cta: Play video
+  webinars:
+    catchline: Start your journey into coding with our free webinars. From HTML &
+      CSS to Data Analytics with Python, from JavaScript to SQL, we've got you covered!
+    choose_your_session: Choose your session
+    date_selection: How to register?
+    date_selection_description: Click on this link to access the registration page,
+      fill up your details and you'll receive your personal link to join in!
+    format: Format
+    format_description: This webinar will start with a 1-hour lecture to introduce
+      the core concepts. You will then be onboarded on Le Wagon e-learning platform
+      and access the slides, a sum-up of key notions as well as exercices to keep
+      practicing after the workshop.
+    hosted_in: Hosted in %{city}
+    language: Language
+    language_description: English
+    learnings: What you will learn
+    main_title_html: Stay home<br>keep <i class="highlighted highlighted-red">growing.</i>
+    pre_requisite: Pre-requisite
+    pre_requisite_description: No pre-requisite, this is a workshop for beginners!
+    your_local_time: "(your local time)"
+  web_development:
+    full_time_nav_1_html: Prepwork<i>~60 hours</i>
+    full_time_nav_2_html: Foundations<i>3.5 weeks</i>
+    full_time_nav_3_html: Web Development<i>3.5 weeks</i>
+    full_time_nav_4_html: Projects<i>2 weeks</i>
+    full_time_nav_5_html: Lifelong learning<i>1+ week</i>
+    lifelong_learning:
+      content_1: We help our students find a job by preparing them for technical interviews,
+        organising job fairs, startup office hours and coaching sessions with tech
+        recruiters and alumni. We have helped our %{alumni_count}+ graduates find
+        their dream job!
+      content_2: After the bootcamp, all our alumni get access to Le Wagon's one-week
+        online extension training in React.js and Redux. A very useful course for
+        our students who want to go deeper in front-end development or apply to front-end
+        developer jobs.
+      content_3: Our alumni keep a lifelong access to our online platform with 300+
+        challenges, 100+ hours of video lessons to re-watch any time after the bootcamp,
+        100+ live-codes and tutorials on real-life developer examples and 900+ flashcards
+        to rehearse core concepts.
+      content_4: Our %{alumni_count}+ alumni discuss every day on Le Wagon's Slack
+        channels after the course, getting help from our 900+ teachers, sharing tips,
+        resources, code snippets, job offers and news from their products. An engaged
+        and passionate tech community, all over the world.
+      title_1: Career Services
+      title_2: React.js Extension Course
+      title_3: Lifelong Access to our Online Platform
+      title_4: Slack & Community
+    menu: Web Development
+    menu_mobile:
+      full_time: Web Development - Full-time
+      part_time: Web Development - Part-time
+    offering_page:
+      catchline_full_time: In 9 intensive weeks, learn all the skills of a Software
+        Developer, code your own web applications from scratch and change your career.
+      catchline_part_time: In 24 weeks, part-time, learn all the skills of a Software
+        Developer and code your own web applications to upskill in your current job
+        or change your career.
+      full_time_cover_picture_alt: In 9 intensive weeks, learn all the skills of a
+        Software Developer at Le Wagon %{city}.
+      full_time_default_cover_picture_alt: In 9 intensive weeks, learn all the skills
+        of a Software Developer at Le Wagon.
+      main_title: Web Development course
+      main_title_city: Web Development course in
+      part_time_cover_picture_alt: In 24 weeks, part-time, learn all the skills of
+        a Software Developer at Le Wagon %{city}
+      part_time_default_cover_picture_alt: In 24 weeks, part-time, learn all the skills
+        of a Software Developer at Le Wagon.
+      program_full_time: Full-time (9 weeks)
+      program_part_time: Part-time (24 weeks)
+      section_career_services:
+        career_week_content_1: 'Access a complete guide to kick-start your tech career
+          after the course: boost your portfolio, prepare for technical interviews,
+          leverage on our %{alumni_count} alumni community.'
+        career_week_content_2: Our local teams know their alumni and hiring partners,
+          what they are up to and what they are looking for. They introduce you to
+          the right people depending on your goal.
+        career_week_content_3: Our alumni often come back to share their post-bootcamp
+          experiences. You will learn about how they found a job, started their own
+          company or freelancing career.
+        career_week_content_4: In addition to Slack channels, our local teams know
+          their alumni and what they're up to - we often introduce relevant people
+          to each other to create synergies.
+        career_week_title_1: Career Playbook
+        career_week_title_2: Career Events
+        career_week_title_3: Alumni Coaching Sessions
+        career_week_title_4: Career Intros
+        content: Once the web development course ends, you benefit from our career
+          services. We help you prepare for tech interviews, meet the best recruiters
+          and connect with relevant alumni.
+        title_html: Find a <i class="highlighted highlighted-blue">job</i> in the
+          best tech companies
+      section_curriculum:
+        full_time_content: Our web development course is designed to make you learn
+          to code step by step, until you can build your own web applications from
+          scratch.
+        part_time_content: Our web development course is designed to make you learn
+          to code step by step, until you can build your own web applications from
+          scratch.
+        title_html: Our course <i class="highlighted highlighted-purple">curriculum</i>
+      section_faq:
+        content: 'If you got here, it means that you have questions about Le Wagon:
+          how to apply, who can join, what you'll learn… Good! We have the answers.'
+        title_html: Any questions about our program in <i class="highlighted highlighted-blue">%{city}</i>
+      section_financing:
+        content: Find out if you are eligible for special offers in %{city}.
+        title_html: Find the right <i class="highlighted highlighted-green">financing</i>
+          option for you
+      section_format:
+        catchline_html: Learn to code in 24 weeks with a tailor-made program<br>adapted
+          to your busy schedule.
+        title_html: Our <i class="highlighted highlighted-green">part-time</i> format
+      section_hiring_partners:
+        content: The best companies partner with Le Wagon and hire our alumni as Web
+          Developers, Product Managers, Growth Hackers or Product Designers.
+        title_html: They hire our web development <i class="highlighted highlighted-green">grads</i>
+      section_instructors:
+        content: Since day one, we've taken teaching seriously. Great teachers inspire
+          us to connect to topics on a profound level. Experience as a developer alone
+          doesn't necessarily make one an effective teacher — that's why we're passionate
+          about finding not only great engineers, but deeply committed, experienced
+          teachers.
+        title_html: Passionate <i class="highlighted highlighted-red">teachers</i>
+      section_overview:
+        full_time_content: Our web development course is an immersive experience that
+          takes you from beginner to junior software developer in 9 weeks. At the
+          end of the course, you will know how to build a robust and user-friendly
+          app that answers your users' needs, and to follow the right workflow to
+          collaborate with other developers, designers and product managers.
+        part_time_content: Our web development course, initially developed as an immersive
+          9-week bootcamp, can also be followed part-time in 24 weeks, studying some
+          weekday evenings and Saturdays. At the end of the course, you will know
+          how to build a robust, user-friendly app that matches users' needs and objectives,
+          and to use the right workflow to work in collaboration with other developers.
+        title_html: Live a unique <i class="highlighted highlighted-red">experience.</i>
+      section_portfolio:
+        content: During our web development course, you learn the essentials of programming
+          while building your own web applications. As a result, you end up the course
+          with a rich Github portfolio containing at least two fully-functional web
+          applications - an Airbnb-like marketplace and your own final project.
+        title_html: Build your developer <i class="highlighted highlighted-blue">portfolio</i>.
+      section_tooling:
+        content: Our web development course is just the beginning of the journey.
+          Once you graduate, you belong to a global community and have access to our
+          online platform to keep learning and growing.
+        title_html: Community and tools <i class="highlighted highlighted-red">for
+          life</i>
+        tool_item_content_1: Get tips and advice from professional developers, access
+          exclusive job and freelance opportunities, find support for your project
+          launch.
+        tool_item_content_2: Access our online education platform at any time after
+          the web development course, with lectures, screencasts, flashcards and challenges.
+        tool_item_content_3: Benefit from advanced tutorials in software development
+          to push your computer science skills further and keep on learning and practicing
+          after the bootcamp.
+        tool_item_content_4: Receive unique job and freelance opportunities from Le
+          Wagon's alumni who work as developers, product managers and entrepreneurs
+          in successful tech companies all over the world.
+        tool_item_title_1: Slack communities
+        tool_item_title_2: Online platform
+        tool_item_title_3: Additional resources
+        tool_item_title_4: Global network
+      section_typical_day:
+        catchline: From morning lectures to evening talks, every day is action-packed.
+        title_html: A typical <i class="highlighted highlighted-red">day</i> at Le
+          Wagon
+      section_typical_week:
+        catchline: Live a unique learning experience every week.
+        title_html: A <i class="highlighted highlighted-red">taste</i> of our program
+    part_time_nav_1_html: Prepwork<i>~60 hours</i>
+    part_time_nav_2_html: Foundations<i>140 hours</i>
+    part_time_nav_3_html: Web Development<i> 140 hours</i>
+    part_time_nav_4_html: Projects<i>80 hours</i>
+    part_time_nav_5_html: Lifelong learning<i>1+ week</i>
+    prepwork:
+      content_html: |
+        <p>Our Web Development Course is very intense. To save time and nail it from the beginning, our students must complete the PrepWork on our custom-built platform before starting the bootcamp. This work takes around 60 hours and gives our students a basic knowledge of:</p>
+        <ul class="dotted-list">
+          <li>Web 101, how the web works</li>
+          <li>Terminal basic commands</li>
+          <li>Git basic commands</li>
+          <li>HTML / CSS foundations</li>
+          <li>JavaScript foundations</li>
+          <li>Tech workflows and tools in a startup</li>
+        </ul>
+      title: Get ready for the bootcamp
+    program_card:
+      description: From the database to the user interface, learn to code your own
+        web applications from scratch and become a full-stack Web Developer.
+      description_full_time_only: In 9 full-time weeks, learn the skills of a full-stack
+        Web Developer and code your own web applications from scratch.
+      description_part_time_only: In 24 weeks, part-time, learn the skills of a full-stack
+        Web Developer and code your own web applications from scratch.
+      title: Web Development courses
+    projects:
+      content_html: |
+        <p>Projects Phase is the ultimate experience of the course: invent, pitch, design, code and deploy an original project in teams of 3 or 4 people during the two final weeks. You will have to go through all the process from the idea to the live app in production on a real domain name, ready to be tested on the market!</p>
+        <ul class="dotted-list">
+          <li>Define the Product's target users and unique value proposition</li>
+          <li>Build an interactive prototype with Figma to validate the UX</li>
+          <li>Split the work in your teams by defining and assigning user stories</li>
+          <li>Code the web application from scratch: from the back-end to the user interface</li>
+          <li>Deploy your app on a production environment</li>
+          <li>Pitch your product during the Demo Day!</li>
+        </ul>
+      title: Turn an idea into a product in 2 weeks
+    software_foundations:
+      content_1: Work with the right developer tools and workflow. Learn the basics
+        of the command line, use a code text editor and install Ruby with a version
+        management tool. Get familiar with most useful developer packages and learn
+        how to version your code with git and push it on Github.
+      content_2: Write programs manipulating variables, loops, conditions and data
+        structures (Array and Hash). Detect text patterns with Regular Expressions
+        and start parsing data from structured files (CSV, JSON, XML, HTML) fetched
+        using web-scraping or by building requests to JSON APIs.
+      content_3: Structure your software following Object-Oriented principles. Learn
+        the Model-View-Controller pattern in-depth (most common application design
+        pattern) by coding several MVC softwares from scratch. You will have to code
+        everything on your own, even simulating your database storing data in CSV
+        files.
+      content_4: Learn to design a relational database schema and to build structured
+        queries to your database with SQL. Build simple CRUD queries (Create, Read,
+        Update, Delete) or advanced JOIN queries. Learn to connect your database to
+        your ruby software with an ORM (Object Relational Mapping) called Active Record.
+      title_1: Developer tools & workflow
+      title_2: Programming Basics in Ruby
+      title_3: Software Architecture
+      title_4: Relational Database, SQL & ORM
+    web_development:
+      content_1: Build your web pages following atomic design principles and code
+        your own UI kit of web components & layouts by applying the latest CSS techniques.
+        Build pages with an adaptive design thanks to media queries and learn to quickly
+        prototype a web app with Bootstrap 4.0 and its responsive grid system.
+      content_2: Learn ES6, your second programming language after ruby, to add dynamic
+        behaviors to your website or update pages without reloading thanks to AJAX.
+        Understand JavaScript fundamental concepts and learn to use all the necessary
+        JS web tools like Babel, Webpack or yarn.
+      content_3: Wrap it all together by coding your first Ruby on Rails applications.
+        Deploy your applications in production & start coding "the Rails way". Go
+        deep into Rails discovering advanced concepts like nested resources, namespaces,
+        or how to refactor an app with services or to build an API with Rails.
+      content_4: Code a clone of Airbnb from scratch in 5 days. You will work in teams
+        to learn to collaborate on Github using pull requests and deploy your apps
+        on Heroku, using the same workflow as successful startups. Implement advanced
+        features (payment, image upload, search, geocoding, background jobs, etc…)
+        and learn to cover your code with tests.
+      title_1: Frontend Development
+      title_2: ES6
+      title_3: Ruby on Rails
+      title_4: Cloning Airbnb in teams
